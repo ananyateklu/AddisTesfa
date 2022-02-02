@@ -1,22 +1,40 @@
 {
-  "name": "addistesfa",
+  "homepage": "https://divinecarellc.herokuapp.com",
+  "name": "divinecare",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^12.1.2",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-icons": "^4.3.1",
-    "react-router-dom": "^6.2.1",
-    "react-scripts": "5.0.0",
-    "react-transition-group": "^4.4.2",
-    "web-vitals": "^2.1.4"
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "^11.1.5",
+    "@material-ui/core": "^4.11.3",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "aos": "^2.3.4",
+    "bootstrap": "^4.6.0",
+    "dotenv": "^8.2.0",
+    "emailjs-com": "^2.6.4",
+    "gh-pages": "^3.1.0",
+    "google-maps-react": "^2.0.6",
+    "mime": "^1.6.0",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.5.1",
+    "react-dom": "^17.0.1",
+    "react-elastic-carousel": "^0.11.1",
+    "react-icons": "^4.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "serve": "^11.3.2",
+    "styled-components": "^5.2.1",
+    "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "predeploy": "yarn build",
+    "start": "serve -s build",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
+    "heroku-postbuild": "npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -37,5 +55,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining": "^7.13.12"
   }
 }
