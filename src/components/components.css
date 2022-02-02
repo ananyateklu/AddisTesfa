@@ -1,0 +1,1528 @@
+/* CSS for Header component starts here */
+.Logo {
+  width: 6.5cm;
+  display: inline;
+}
+
+.Burger {
+  display: none;
+}
+.Burgerstuff {
+  display: none;
+}
+
+.Header {
+  position: fixed;
+  background-color: aliceblue;
+  height: 99px;
+  width: 100%;
+  z-index: 3;
+}
+
+.Links {
+  display: inline;
+  float: right;
+  margin-top: 40px;
+}
+
+.Links a {
+  font-size: 0.91rem;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.Links button {
+  margin-left: 50px;
+  margin-right: 80px;
+  background-color: brown;
+  color: white;
+  border: 2px solid #d9d9d9;
+  width: 150px;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.Links button:hover {
+  margin-left: 50px;
+  margin-right: 80px;
+  background-color: aliceblue;
+  color: #5893d4;
+  border: 2px solid #d9d9d9;
+  width: 150px;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.linkon {
+  color: aliceblue;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.linkoff {
+  padding: 0px;
+  margin: 30px;
+  background-color: transparent;
+  color: black;
+  z-index: 1000;
+}
+
+.linkoff:hover {
+  padding: 0px;
+  background-color: transparent;
+  padding-top: 40px;
+  padding-bottom: 8px;
+  border-bottom: 2.5px solid brown;
+  color: #1c77dfdc;
+}
+
+.ApplyButton {
+  background-color: brown;
+  color: aliceblue;
+  border: 2px solid #d9d9d9;
+  width: 150px;
+  font-size: 14px;
+  margin-right: 30px;
+  border-radius: 3px;
+}
+.ApplyButton:hover {
+  margin: 0px;
+  background-color: aliceblue;
+  color: #5893d4;
+  border: 2px solid #d9d9d9;
+  width: 150px;
+  font-size: 14px;
+  margin-right: 30px;
+  margin-left: 23.2px;
+  border-radius: 3px;
+}
+/* CSS for Header component ends here */
+
+/* CSS for footer component starts here */
+.Pic1 {
+  width: 100%;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.Footer {
+  background-color: #5893d4;
+  padding-top: 10px;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  z-index: 1;
+}
+.Footer img {
+  width: 230px;
+}
+.Flex-containerfooter {
+  display: flex;
+}
+.Flexfooter1 {
+  flex: 1;
+}
+.Flexfooter2 {
+  flex: 1;
+}
+.Footerbutton {
+  background-color: #5893d4;
+  color: white;
+  border: 2px solid #d9d9d9;
+  margin-top: 20px;
+  width: 80px;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+.Footerbutton:hover {
+  background-color: aliceblue;
+  color: #5893d4;
+  border: 2px solid #d9d9d9;
+  width: 80px;
+  height: 30px;
+  font-size: 14px;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+.footerlinks {
+  padding: 7px;
+  color: aliceblue;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.Flexfooter2 br {
+  height: 5px;
+}
+.footerh3 {
+  font-size: 15px;
+  color: aliceblue;
+  font-weight: 500;
+  margin-left: 70px;
+}
+.Licence {
+  text-align: center;
+  background-color: #548eccc4;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+.Licence h6 {
+  padding-top: 15px;
+  font-weight: 600;
+  color: aliceblue;
+}
+.Copyright {
+  text-align: center;
+  background-color: #f1f7ff;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+}
+.Copyright h6 {
+  padding-top: 15px;
+  margin: 0;
+  font-weight: 500;
+  color: #2169bb;
+}
+.icons8 {
+  padding: 0;
+  margin: 0;
+}
+.icons8:visited {
+  color: #2169bb;
+}
+/* CSS for footer component ends here */
+
+/* CSS for Home component starts here */
+.Titlediv {
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.Title {
+  display: inline;
+  color: black;
+}
+.Title2 {
+  color: brown;
+  display: inline;
+}
+.Titlediv2 {
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+.Licence1 {
+  width: 170px;
+  position: relative;
+  padding: 0;
+  margin-top: -17px;
+  float: right;
+}
+
+.Licence2 {
+  width: 250px;
+  position: relative;
+  padding: 0;
+  margin-top: 50px;
+}
+
+a {
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  text-decoration: none;
+}
+/* Default value for h3 and h6 */
+h3 {
+  font-size: 27px;
+}
+h6 {
+  font-size: 15px;
+  margin: 10px;
+}
+.imgbody {
+  margin: 0;
+  padding: 0;
+  height: 217px;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.slider {
+  width: 100vw;
+  margin-top: 220px;
+  height: 435px;
+  position: relative;
+  overflow: hidden;
+}
+.slides {
+  width: 300%;
+  height: 500px;
+  display: flex;
+}
+.slideimg {
+  width: 100vw;
+}
+.picicon {
+  display: inline-table;
+  position: absolute;
+  background-color: aliceblue;
+  width: 15vw;
+  opacity: 0.7;
+  margin-left: 70vw;
+  margin-top: 50px;
+  padding-top: 50px;
+  margin-right: 4vw;
+  margin-bottom: 4vh;
+  text-align: center;
+  height: 230px;
+  border-radius: 25px;
+  border: 4px solid #5893d4;
+}
+
+.slides input {
+  display: none;
+}
+
+.slide {
+  width: 33.33%;
+  transition: 2s;
+}
+
+.navigation-manual {
+  position: absolute;
+  width: 98vw;
+  margin-top: 400px;
+  display: flex;
+  justify-content: center;
+}
+.manual-btn {
+  border: 2px solid brown;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+  margin-right: 40px;
+}
+
+.manual-btn:hover {
+  background-color: brown;
+}
+
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+#radio2:checked ~ .first {
+  margin-left: -33.33%;
+}
+#radio3:checked ~ .first {
+  margin-left: -66.66%;
+}
+#radio4:checked ~ .first {
+  margin-left: -100%;
+}
+#fradio {
+  background-color: brown;
+}
+
+.navigation-auto {
+  position: absolute;
+  display: flex;
+  width: 98vw;
+  justify-content: center;
+  margin-top: 400px;
+}
+
+.navigation-auto div {
+  border: 2px solid brown;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.navigation-auto div:not(:last-child) {
+  margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+  background-color: brown;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+  background-color: brown;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+  background-color: brown;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+  background-color: brown;
+}
+
+.flex-containerhome {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex1 {
+  flex: 1;
+  margin-right: 0px;
+  width: 65vw;
+}
+
+.flex1in {
+  width: 32vw;
+  margin-left: 50px;
+}
+
+.flex1 h3 {
+  font-size: 25px;
+  margin-left: 7px;
+}
+
+.flex1 h6 {
+  font-size: medium;
+}
+
+.flex2 {
+  width: 55%;
+}
+
+.flex2 h3 {
+  font-size: 25px;
+  margin-left: 7px;
+}
+
+.flex2in {
+  opacity: 0.7;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  width: 40vw;
+}
+
+.flex2 img {
+  color: aliceblue;
+  border-radius: 20px;
+  width: 100%;
+  padding: 5px;
+}
+
+.Display h3 {
+  display: inline;
+}
+.Display {
+  display: inline;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.Homemore {
+  width: 100vw;
+  margin-top: 30px;
+  text-align: center;
+}
+.Homemore h3 {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.firsticon {
+  display: inline-table;
+  width: 10vw;
+  background-color: brown;
+  color: aliceblue;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-bottom: 4vh;
+  text-align: center;
+  height: 200px;
+  border-radius: 25px;
+  border: 4px solid brown;
+}
+.secondicon {
+  display: inline-table;
+  text-align: center;
+  background-color: brown;
+  color: aliceblue;
+  width: 10vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  height: 200px;
+  border-radius: 25px;
+  border: 4px solid brown;
+}
+.thirdicon {
+  display: inline-table;
+  text-align: center;
+  background-color: brown;
+  color: aliceblue;
+  width: 10vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  height: 200px;
+  border-radius: 25px;
+  border: 4px solid brown;
+}
+.forthicon {
+  display: inline-table;
+  text-align: center;
+  background-color: brown;
+  color: aliceblue;
+  width: 10vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  height: 200px;
+  border-radius: 25px;
+  border: 4px solid brown;
+}
+.fifthicon {
+  display: inline-table;
+  text-align: center;
+  background-color: brown;
+  color: aliceblue;
+  width: 10vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  height: 200px;
+  border-radius: 25px;
+  border: 4px solid brown;
+}
+.sixthicon {
+  display: inline-table;
+  text-align: center;
+  background-color: brown;
+  color: aliceblue;
+  width: 10vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  height: 200px;
+  border-radius: 25px;
+  border: 4px solid brown;
+}
+
+.Homewelcome {
+  text-align: center;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 260px;
+}
+.Homewelcome h6 {
+  font-weight: 500;
+  font-size: medium;
+}
+.Homewelcome h3 {
+  font-weight: 700;
+}
+.Homeservices {
+  height: 90vh;
+  text-align: left;
+}
+.Homeservices h6 {
+  font-weight: 500;
+}
+.Homeservices h3 {
+  font-weight: 700;
+}
+.Homeskillpic {
+  width: 100%;
+  height: 580px;
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 160px;
+  float: left;
+  margin: -5px -10px -10px -5px;
+  filter: blur(16px);
+}
+.Homeskilltext {
+  position: absolute;
+  padding-top: 60px;
+  padding-bottom: 160px;
+  z-index: 2;
+  width: 90%;
+  left: 70px;
+  margin-top: 70px;
+}
+.Testimonials {
+  padding-bottom: 30px;
+  margin-top: 70px;
+  text-align: center;
+  margin-bottom: 70px;
+  height: auto;
+}
+.Testimonials h6 {
+  font-weight: 500;
+}
+.Testimonialtext1 {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.Testimonialtext2 {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.Divslide {
+  position: relative;
+}
+.divslider {
+  position: relative;
+  display: inline-table;
+  width: 100%;
+  margin-top: 70px;
+  height: 460px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.image {
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 220px;
+  font-size: 3rem;
+  color: brown;
+  z-index: 2;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 220px;
+  font-size: 3rem;
+  color: brown;
+  z-index: 2;
+  cursor: pointer;
+  user-select: none;
+}
+
+.divslide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.divslide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+  width: 90%;
+}
+.Quotepic {
+  width: 90px;
+}
+.Fatherof {
+  font-weight: 300;
+}
+
+/* CSS for home component ends here */
+
+/* CSS for about page starts here */
+.About {
+  width: 80vw;
+  margin-left: 10vw;
+  height: auto;
+  padding-bottom: 0px;
+  background-color: white;
+  margin-bottom: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09), 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Aboutpic img {
+  width: 100%;
+}
+
+.Abouttext {
+  text-align: center;
+  /* margin-left: 5%;
+  margin-right: 5%; */
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.AboutContent {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.Abouticon {
+  width: 50px;
+  margin-top: 15px;
+}
+
+.Abouttext h6 {
+  color: #1656a0;
+  font-weight: 500;
+}
+
+.BottomPics {
+  margin-top: 90px;
+  width: 283px;
+  padding-left: 2px;
+  padding-right: 2px;
+  height: 190px;
+}
+
+/* CSS for about page ends here */
+
+/* CSS for services page starts here */
+
+.Services {
+  width: 80vw;
+  margin-left: 10vw;
+  height: auto;
+  background-color: white;
+  margin-bottom: 50px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.09), 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Servicespic img {
+  width: 100%;
+}
+.Servicestext {
+  text-align: center;
+  /* margin-left: 5%;
+  margin-right: 5%; */
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.ServicesContent {
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.Servicestitle {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.Servicestitle img {
+  width: 50px;
+  margin-top: 15px;
+}
+
+.Servicestext h4 {
+  color: brown;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  font-size: large;
+}
+
+.Servicestext li {
+  color: #1656a0;
+  font-weight: 500;
+  width: 90%;
+  list-style-type: circle;
+}
+
+.Homeservices1 {
+  width: 50%;
+  display: inline-table;
+}
+
+.Homeservices2 {
+  width: 50%;
+  display: inline-table;
+}
+
+.Payment {
+  width: 50%;
+  display: inline-table;
+}
+
+.Agegroup {
+  width: 50%;
+  display: inline-table;
+}
+
+/* CSS for services page ends here */
+
+/* CSS for contact us page starts here */
+
+.Contactpic {
+  overflow: hidden;
+}
+
+.Contactpic img {
+  width: 100%;
+  height: 300px;
+  opacity: 0.8;
+  filter: blur(3px);
+  margin: -5px -10px -10px 0px;
+}
+.Contact {
+  position: relative;
+  width: 80vw;
+  text-align: center;
+  margin-left: 10vw;
+  height: auto;
+  background-color: white;
+  margin-bottom: 40px;
+  z-index: 2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09), 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Contacttext {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 400px;
+  text-align: left;
+  height: auto;
+  z-index: -3;
+  padding-bottom: 40px;
+}
+
+.Contacttext h4 {
+  color: #4a7ac7;
+  font-weight: 600;
+}
+
+.Contacttitle {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.Contacttitle hr {
+  width: 160px;
+  padding: 0;
+  margin: auto;
+  border: none;
+  border: 1.2px dashed brown;
+}
+
+.Contacttitle img {
+  width: 70px;
+  margin-top: 40px;
+}
+
+.Contacttitle h3 {
+  color: brown;
+  font-weight: 700;
+  margin-bottom: 2px;
+  margin-top: 50px;
+}
+.Contactinput {
+  display: inline-table;
+  padding: 20px;
+  width: 400px;
+  padding-left: 5vw;
+  border-radius: 20px;
+}
+
+.Contactinput h4 {
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+.inputs {
+  height: 27px;
+  width: 75%;
+  padding-left: 7px;
+  margin: 0;
+  padding: 2px;
+  border: none;
+  box-shadow: 0px 0px 0px 1px rgba(35, 106, 189, 0.3);
+  border-radius: 3px;
+  display: absolute;
+  z-index: 1000;
+}
+
+.Contactinput textarea {
+  height: 155px;
+  width: 75%;
+  padding-left: 7px;
+  margin: 0;
+  padding: 2px;
+  border: none;
+  z-index: -1;
+  box-shadow: 0px 0px 0px 1px rgba(42, 104, 175, 0.3);
+  border-radius: 3px;
+  display: absolute;
+  z-index: 1000;
+}
+
+.Contactinfo {
+  display: inline-table;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 200px;
+}
+.Contactinfo h4 {
+  color: brown;
+  font-weight: 600;
+  font-size: larger;
+  margin-bottom: 20px;
+}
+
+.Contactinfo h6 {
+  color: brown;
+  font-weight: 600;
+  font-size: medium;
+  margin-bottom: 20px;
+}
+.SubmitBtn {
+  background-color: brown;
+  color: white;
+  border: 2px solid #d9d9d9;
+  width: 170px;
+  margin: 0px;
+  margin-top: 20px;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+.SubmitBtn:hover {
+  background-color: aliceblue;
+  color: #5893d4;
+  border: 2px solid #d9d9d9;
+  width: 170px;
+  margin: 0px;
+  margin-top: 20px;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.Divmap {
+  padding: 0px;
+  margin: 0px;
+  z-index: -1;
+}
+.Divmapmobile {
+  display: none;
+}
+
+.map {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.map-container {
+  width: 400px;
+}
+
+.sidebarStyle {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 12px;
+  background-color: #404040;
+  color: #ffffff;
+  z-index: 1;
+  padding: 6px;
+  font-weight: bold;
+}
+
+.sidebarStyle div {
+  width: 200px;
+}
+
+/* CSS for contact us page ends here */
+
+/* CSS for location page starts here */
+.Location {
+  width: 80vw;
+  margin-left: 10vw;
+  height: auto;
+  text-align: center;
+  padding-bottom: 30px;
+  background-color: white;
+  margin-bottom: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09), 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.Location img {
+  width: 70px;
+}
+.Locationpic {
+  margin: 0;
+  padding: 0;
+}
+
+.Locationpic img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.Location h3 {
+  color: brown;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.Locationpics {
+  text-align: left;
+  padding: 50px;
+  height: 100vh;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.Location1 {
+  width: 80vh;
+  height: 900px;
+  clear: both;
+  display: table;
+}
+
+.Locationpic1 {
+  width: 38%;
+  float: left;
+}
+
+.Locationtext1 {
+  width: 30%;
+  margin-left: 100px;
+  height: 400px;
+  float: left;
+}
+
+.Location2 {
+  width: 80vh;
+  display: table;
+  clear: both;
+}
+
+.Locationpic2 {
+  width: 38%;
+  float: left;
+}
+
+.Locationtext2 {
+  width: 30%;
+  margin-left: 100px;
+  height: 400px;
+  float: left;
+}
+
+.Locationtext1 h6 {
+  display: block;
+  width: 30vw;
+  color: #1656a0;
+  font-size: medium;
+  font-weight: 500;
+}
+.Locationtext2 h6 {
+  display: block;
+  width: 30vw;
+  color: brown;
+  font-weight: 500;
+  font-size: medium;
+}
+.Locationpics img {
+  width: 400px;
+  margin-bottom: 50px;
+  border: solid 6px #b4d0f0;
+  border-radius: 20px;
+}
+
+/* CSS for location component ends here */
+
+/* CSS Styling for mobile version */
+@media only screen and (max-width: 1250px) {
+  .Burger {
+    position: absolute;
+    right: 20px;
+    top: 32px;
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+  .Bur {
+    color: brown;
+    height: 40px;
+    width: 40px;
+    float: right;
+  }
+  .Links {
+    display: none;
+  }
+
+  .Headerbutton {
+    margin-left: 25px;
+    margin-right: 80px;
+    margin-top: 15px;
+    background-color: #5893d4;
+    color: white;
+    border: 3px solid #d9d9d9;
+    width: 110px;
+    height: 30px;
+    border-radius: 6px;
+  }
+  .Contact {
+    position: relative;
+    width: 80vw;
+    margin-left: 10vw;
+    height: auto;
+    padding-bottom: 200px;
+    background-color: white;
+    margin-bottom: 40px;
+    z-index: 2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.09), 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .Licence {
+    text-align: center;
+    background-color: #548eccc4;
+    width: 100%;
+    height: 55px;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  .Licence h6 {
+    font-size: 9px;
+    padding-top: 15px;
+    font-weight: 600;
+    color: aliceblue;
+  }
+  .Copyright {
+    text-align: center;
+    background-color: #f1f7ff;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+  }
+  .Copyright h6 {
+    padding-top: 15px;
+    font-size: 12px;
+    margin: 0;
+    font-weight: 500;
+    color: #2169bb;
+  }
+  .footerh3 {
+    font-size: 11px;
+    color: aliceblue;
+    font-weight: 500;
+    margin-left: 70px;
+  }
+
+  .Divmap {
+    display: none;
+  }
+  .Contactinput {
+    width: 80%;
+    padding-left: 40px;
+  }
+
+  .Contacttext {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .Contactinput input {
+    border: 0.5px solid rgba(21, 69, 124, 0.3);
+  }
+  .Contactinput textarea {
+    height: 155px;
+    width: 90%;
+    padding-left: 7px;
+    margin: 0;
+    padding: 2px;
+    border: 0.5px solid rgba(21, 69, 124, 0.3);
+    z-index: -1;
+    box-shadow: 0px 0px 0px 1px rgba(42, 104, 175, 0.3);
+    border-radius: 3px;
+    display: absolute;
+    z-index: 1000;
+  }
+  .Contacttitle img {
+    width: 40px;
+    margin-top: 40px;
+  }
+  .Contactpic img {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+    filter: blur(3px);
+    margin: -5px -10px -10px 0px;
+  }
+  .Contactinfo {
+    display: inline-table;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 150px;
+  }
+  .Contactinfo img {
+    width: 40px;
+  }
+  .Contactinfo h4 {
+    font-size: medium;
+  }
+  .Contactinfo h6 {
+    font-size: small;
+  }
+  .Divmapmobile {
+    display: none;
+  }
+  .footerh3 {
+    margin-left: 20px;
+  }
+  .Burgerstuff {
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    text-align: center;
+    padding-right: 20px;
+    width: 150px;
+    background-color: aliceblue;
+    height: 280px;
+    z-index: 10;
+    border-radius: 10px;
+  }
+  .link {
+    width: 100%;
+    padding: 0;
+    padding-top: 20px;
+    margin-left: 20px;
+    position: relative;
+    display: block;
+    font-size: large;
+    color: #5893d4;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    right: 15px;
+  }
+  .Flexfooter2 {
+    flex: 1;
+    margin-left: 40px;
+  }
+  .Homeservices {
+    text-align: left;
+    position: relative;
+  }
+  .Homewelcome {
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 70px;
+  }
+  .Location {
+    width: 80vw;
+    margin-left: 10vw;
+    height: 230vh;
+    text-align: center;
+    clear: both;
+    padding-bottom: 30px;
+    background-color: white;
+    margin-bottom: 260px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.09), 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .Locationtext1 {
+    width: 50%;
+    margin-left: 0px;
+    height: 100%;
+  }
+  .flex1 {
+    margin-right: 0px;
+    width: 65vw;
+    margin-right: 50px;
+    height: 100%;
+  }
+  .flex1in {
+    width: 100%;
+    display: inline-table;
+    height: 100%;
+  }
+  .flex2 {
+    display: none;
+  }
+  .Homeskilltext {
+    position: absolute;
+    height: 100%;
+    z-index: 2;
+    width: 90%;
+    left: 0px;
+    margin-top: 30px;
+  }
+  .Homeskillpic {
+    width: 100%;
+    position: relative;
+    float: left;
+    height: 700px;
+    margin: -5px -10px -10px -5px;
+    filter: blur(16px);
+  }
+  .Homemore {
+    width: 100vw;
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+  }
+  .Testimonials {
+    padding-bottom: 30px;
+    margin-top: 70px;
+    width: 100%;
+    margin-bottom: 70px;
+    height: auto;
+  }
+  .Testimonialtext1 {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .Testimonialtext2 {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .Testimonials h6 {
+    font-weight: 500;
+  }
+  .Testimonialtext {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .divslider {
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    margin-top: 70px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    font-size: 3rem;
+    color: brown;
+    z-index: 2;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    font-size: 3rem;
+    color: brown;
+    z-index: 2;
+    cursor: pointer;
+    user-select: none;
+  }
+  .Quotepic {
+    width: 90px;
+  }
+  .Fatherof {
+    font-weight: 300;
+  }
+  .firsticon {
+    display: inline-table;
+    width: 14vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 4vh;
+    text-align: center;
+    height: 200px;
+  }
+  .secondicon {
+    display: inline-table;
+    text-align: center;
+    width: 14vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    height: 200px;
+  }
+  .thirdicon {
+    display: inline-table;
+    text-align: center;
+    width: 14vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    height: 200px;
+  }
+  .forthicon {
+    display: inline-table;
+    text-align: center;
+    width: 14vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    height: 200px;
+  }
+  .fifthicon {
+    display: inline-table;
+    text-align: center;
+    width: 14vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    height: 200px;
+  }
+  .navigation-auto {
+    display: none;
+    /* position: absolute;
+    
+    width: 98vw;
+    justify-content: center;
+    margin-top: 200px; */
+  }
+  .navigation-manual {
+    display: none;
+    /* position: absolute;
+    width: 98vw;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center; */
+  }
+  .imgbody {
+    margin: 0;
+    padding: 0;
+    height: 217px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+  }
+  .picicon {
+    display: none;
+  }
+  .Homeservices1 {
+    width: 100%;
+    display: inline-table;
+  }
+
+  .Homeservices2 {
+    width: 100%;
+    display: inline-table;
+  }
+  .slider {
+    width: 100vw;
+    margin-top: 220px;
+    height: 435px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .Location1 {
+    width: 80vh;
+    height: auto;
+    clear: both;
+    display: relative;
+    text-align: center;
+  }
+
+  .Locationpic1 {
+    width: 100%;
+    text-align: center;
+  }
+  .Locationpic1 img {
+    width: 80%;
+  }
+
+  .Locationtext1 {
+    width: 100%;
+    height: 200px;
+    text-align: left;
+  }
+  .Locationtext1 h6 {
+    display: block;
+    width: 60vw;
+    color: brown;
+    font-size: medium;
+    font-weight: 500;
+  }
+  .Locationtext2 h6 {
+    display: block;
+    width: 60vw;
+    color: brown;
+    font-weight: 500;
+    font-size: medium;
+  }
+
+  .Location2 {
+    width: 80vh;
+    display: relative;
+    clear: both;
+  }
+
+  .Locationpic2 {
+    width: 100%;
+    text-align: center;
+  }
+  .Locationpic2 img {
+    width: 80%;
+  }
+
+  .Locationtext2 {
+    width: 100%;
+    margin-left: 0px;
+    height: 200px;
+    clear: both;
+    text-align: left;
+  }
+  .Payment {
+    width: 42%;
+    margin-left: 20px;
+    display: inline-table;
+  }
+  .Agegroup {
+    width: 42%;
+    margin-left: 20px;
+  }
+  .Payment ul {
+    padding: 10px;
+  }
+  .Agegroup ul {
+    padding: 10px;
+  }
+  .ApplyButton {
+    background-color: brown;
+    color: aliceblue;
+    border: 2px solid #d9d9d9;
+    font-size: 14px;
+    margin-right: 0px;
+    border-radius: 3px;
+  }
+  .ApplyButton:hover {
+    margin: 0px;
+    background-color: aliceblue;
+    color: #5893d4;
+    border: 2px solid #d9d9d9;
+    font-size: 14px;
+    margin-right: 0px;
+    border-radius: 3px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Location {
+    width: 80vw;
+    margin-left: 10vw;
+    height: 160vh;
+    text-align: center;
+    clear: both;
+    padding-bottom: 30px;
+    background-color: white;
+    margin-bottom: 260px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.09), 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+}
