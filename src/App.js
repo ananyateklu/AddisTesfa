@@ -1,23 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from 'react';
+import Header from "./components/header.component";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Contactus from "./components/contact.component";
+import Home from "./components/home.component";
+import Aboutus from "./components/about.component";
+import Footer from "./components/footer.component";
+import "./App.css"
+
+import { CSSTransition, TransitionGroup } from "react-transition-group";
 
 function App() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Header className="Header" />
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <Route
+          render={({location}) => (
+            <TransitionGroup>
+              <CSSTransition key= {location.key} timeout={450} classNames="fade">
+                <Routes location= {location}>
+                  <Route path="/" exact component={Home} />
+                  <Route path="/aboutus" exact component={Aboutus} />
+                  <Route path="/contactus" exact component={Contactus} />
+                </Routes>
+              </CSSTransition>
+            </TransitionGroup>
+          )}
+        />
+
+        <Footer className="Footer" />
+      </Router>
     </div>
   );
 }
