@@ -16,7 +16,7 @@ export class MapContainer extends React.Component {
       marginTop: "0",
       marginLeft: "0",
       borderRadius: "10px",
-      border: "solid 2px #7daaf3",
+      border: "solid 2px brown",
     };
 
     return (
@@ -27,7 +27,7 @@ export class MapContainer extends React.Component {
           google={this.props.google}
           zoom={14}
           style={style}
-          initialCenter={{ lat: 44.71562073515013, lng: -93.24792898688428 }}
+          initialCenter={{ lat: 44.9778, lng: -93.2650 }}
         >
           <Marker onClick={this.onMarkerClick} name={"Current location"} />
 

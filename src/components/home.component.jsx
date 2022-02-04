@@ -1,10 +1,16 @@
 import React, { Component } from "react";
-import Pic2 from "../assets/new7.jpg";
+import Pic2 from "../assets/fasil.jpg";
 import Slider from "./Slider";
-import Homecomp from "../assets/Homecomp4.jpg";
+import addistesfa from "../assets/addistesfa.png";
+import Board1 from "../assets/board1.png";
+import Board2 from "../assets/board2.png";
+import Board3 from "../assets/board3.png";
+import Board4 from "../assets/board4.png";
+import Board5 from "../assets/board5.png";
 import DivSlider from "./DivSlider";
 import { DivSliderData } from "./DivSliderData";
 import Licence1 from "../assets/Licence1.png";
+import { NavLink, Link } from "react-router-dom";
 
 export default class home extends Component {
   componentDidMount() {
@@ -14,23 +20,20 @@ export default class home extends Component {
     return (
       <div className="Home">
         <Slider />
-        <div className="Homewelcome">
-          <div className="Titlediv">
-            <h3 className="Title">WELCOME TO</h3>
-            <h3 className="Title2"> DIVINE CARE LLC</h3>
-          </div>
+        <div className="Ourmission">
+          <h3>About Addis Tesfa</h3>
           <h6>
-            When it comes to healthcare assistance, it is essential to make sure
-            that the person seeking assistance receives holistic care. Divine
-            Care LLC is primarily engaged in providing personalized medical
-            assistance such as skilled nursing, home care aide and therapeutic
-            services through person-centered assistance living for people of all
-            ages. Our care focuses not only on physical and mental health, but
-            also on their spiritual and social well-being. At Divine Care LLC,
-            we not only aim to optimize the health of our client but also
-            encourage them to engage within the community.
+            Addis Tesfa Brothers Unity: is a non-profit organization
+            incorporated under the laws of the state of Minnesota. This
+            organization has been created exclusively for purposes subsequent to
+            section 501(c) (3) of the internal revenue code. The name Addis
+            Tesfa, meaning, New Hope, in english, signifies and symbolizes the
+            optimism we have to bring about a significant change in the life of
+            our families, communities and society.
           </h6>
-          <img className="Licence2" src={Licence1} alt="Licence" />
+          <Link className="ApplyButton" to="/aboutus">
+            Learn More
+          </Link>
         </div>
         <div className="Homeservices">
           <img className="Homeskillpic" src={Pic2} alt="pic2" />
@@ -38,85 +41,83 @@ export default class home extends Component {
             <div className="flex-containerhome">
               <div className="flex1">
                 <div className="flex1in">
-                  <h3>SKILLED NURSING HOMES AT DIVINE CARE LLC</h3>
+                  <h3>ስለ አዲስ ተስፋ የወንድሞች ህብረት</h3>
                   <h6>
-                    Our residential home, customized person center is equipped
-                    to accommodate a maximum of 4 residents per house to create
-                    the environment of home away from home. There can be many
-                    occasions when you or your family member might require
-                    medical attention, therapeutic services, and assistance with
-                    activities of daily living. These are all services that can
-                    be provided at Divine Care by our skilled nurses and home
-                    health aide staff at the comfort of our customized
-                    living/assisted living homes. We are here to provide you
-                    with all the support you need towards living a better life.
+                    አዲስ ተስፋ የወንድሞች ህብረት በሚኒሶታ የትርፍ እልባ ድርጅት ማቋቋሚያ ህገ ደንብ መሰረት
+                    ህጋዊ ፍቃድ በማግኘት የተቋቋመ ምግባረ ሠናይ ድርጅት ነው። የህብረቱም ዓላማና ተግባር በሀገር
+                    ዉስጥ ገቢ መስሪያቤት ድንብ ቁጥር 501 ( ሲ ) ( 3 ) በሚፍቅደው መሰረት ለሚከናወን
+                    ተግባር ብቻ የሚውል ይሆናል። ይህ ህብረት ከማንኛውም የዕምነት፤ የዘር፤ የቀለምና የፖለትካ
+                    ልዩነት ገለልተኛ በመሆን የድርጅቱን ዓላማና ግብ ከሚደገፉ ግለሰቦችም ሆነ ድጋፍ ከሚስጡ ተቋማት
+                    በሚገኝ ገቢ የሚንቀሳቀስ ግብረሰናይ ድርጅት እንጅ ለትርፍ የሚሰራ ተቋም እይደለም ። ይህ
+                    የወንድሞች ህብረት ለተቋቋመበት ዓላማና የስራ ክንዋኔ የሚያገለግል የመተዳደሪያ ደንብና ግልፅ
+                    የሆነ የራሱ ራዕይና ተልዕኮ ያለው ማህበራዊ ተቋም ነው። ይህንንም ተቋም ለመምራት ብቃት ያላቸው
+                    አምስት አባላት ያሉት የዳይሬክተሮች ቦርድ ያለው ሲሆን ይህም ለማንኛውም የህብረቱ የስራ
+                    እንቅስቃሴ ስኬትና ውድቀት ሙሉ ተጠያቂነትና ሃላፊነትን የሚውሰድ እካል ያለው መሆኑን
+                    ያረጋግጣል። አዲስ ተስፋ የወንድሞች ህብረት ስሙ እንደሚገልፀው ወንድሞች በህብረት ሆነው ሲሰሩ
+                    በቤተሰብም ሆነ በማህበረሰብ ግልጋሎት ወስጥ ሊያበርክቱት የሚችሉት እስተዋፅዖ እጅግ ከፍተኛ
+                    መሆኑን ነው :: ይህንን የወንድሞች ሃይል በተቀናጀና በተደራጀ መልክ በተቋማዊ እመራር ስር
+                    በማስተባበር ተገቢውን እውቀትና ስልጠና በመስጠት ከማጀት እስከ አደባባይ ባለው መስክ
+                    ሃላፊነታቸውን በሚገባ ሊወጡ የሚችሉ ወንድሞችን ማፍራት ይቻላል። ከዚህም በተጨማሪ በውጭም ሆነ
+                    በሃገር ቤት ለሚክናወኑ ማህበራዊና ሃገራዊ ጉዳዮች ከፍተኛ እገዛን ሊያበረክቱ የሚችሉ የላቀ
+                    ብቃት ያላቸውን ወንድሞች የማሰባሰቢያ ማዕከል እንደሚሆን ተስፋ አለን:: ያገሩን ሰርዶ ባገሩ
+                    በሬ እንደሚባለው የራሳችንን ችግር በራሳችን ለመፍታትና ለወገንም ደራሽ ወገን መሆኑን በመገንዘብ
+                    ለተተኪው ትውልድ እሻራ ጥሎ ለማልፍ ፍላጎት ባሳደሩና በቅን መንፈ በተነሳሱ በሚኒሶታ በሚገኙ
+                    ኢትዮጵያውያንና ኤርትራውያን ወንድሞች እማካይነት የአዲስ ተስፋ ህብረት እንደ አውሮጳውያኑ
+                    አቆጣጠር በ 2019 ጥር ወር ተመስርቷል :: በእኛ እምነት የዚህ ህብረት ምስረታ ዕውነተኛ
+                    የወገንና የሃገር ፍቅር ስሜት በተግባር የሚለካበትን መልካም ዕድል የሚፈጥርና ብዙ በጎ
+                    እድራጊዎችም ለዘመናት ያጡትን ተአማኒነት፤ግልፀኝነትና ህጋዊ ተጠያቂነት ያለው በአገር ልጆች
+                    የሚመራ ተቋም የማግኘት የዘመናት ምኞትን የሚያሳካ መሆኑን እያበሰርን ይህም በብዙ ወገኖች
+                    የሚደገፍና የሚጠናከር ስለመሆኑ ገና ከጅምሩ የተገኝው የወንድሞች ምስጋናና ቅቡልነት በቂ ምስክር
+                    ነው ። ወገንንም ለመርዳት ሆነ ሃገርንም ለማልማት በተቋማዊ ብቃትና በንቁ ተሳትፎ በህብረት
+                    ካልተንቀሳቀስን ውጤታማ ዜጎች እንደማንሆን በመገንዘብ ይህን ህብረት በመቀላቀልና በማገዝ ለወገን
+                    ደራሽነታችንንና ለሀገር እልኝታነታችንን በተግባር በማስመስከር መጪው ዘመን ስለ ሃገራችን
+                    እድገትና ብልፅግና የሰነቀውን ብሩህና አዲስ ተስፋ እውን ለማድረግ በህብረትና በቅንነት እንነሳ
+                    ።
                   </h6>
                 </div>
               </div>
               <div className="flex2">
                 <div className="flex2in">
-                  <img src={Homecomp} alt="Homepic" />
+                  <img src={addistesfa} alt="Homepic" />
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="Homemore">
-          <div className="Titlediv2">
-            <h3 className="Title">SOME KEY FEATURES OF OUR</h3>{" "}
-            <h3 className="Title2"> SKILLED NURSING SERVICES</h3>
+       
+        <div className="Boardof">
+        <h3 className="BoardTitle">Board of Directors</h3>
+          <div className="Boardpics">
+          <div className="Locationpic1">
+            <img alt="location-pic" src={Board1} />
+            <h4>Ashenafi Gebe</h4>
+            <h5>Chairman</h5>
           </div>
-
-          <div className="firsticon">
-            <img
-              src="https://img.icons8.com/bubbles/100/000000/domain.png"
-              alt="internet"
-            />
-            <h6>Amenities including in-room wifi and cable</h6>
+          <div className="Locationpic2">
+            <img alt="location-pic" src={Board2} />
+            <h4>Assefa Adugna Jale</h4>
+            <h5>Chief Financial Officer (CFO)</h5>
+          </div>{" "}
+          <div className="Locationpic3">
+            <img alt="location-pic" src={Board3} />
+            <h4>Seyoum workneh</h4>
+            <h5>Secretary</h5>
+          </div>{" "}
+          <div className="Locationpic4">
+            <img alt="location-pic" src={Board4} />
+            <h4>Elias Tessema Eyasu</h4>
+            <h5> Chief Risk Managment Offier (CRMO)</h5>
+          </div>{" "}
+          <div className="Locationpic5">
+            <img alt="location-pic" src={Board5} />
+            <h4>Dr. Girum Lema</h4>
+            <h5> Chief Research & Developmnt Offier (CRMO)</h5>
           </div>
-          <div className="secondicon">
-            <img
-              src="https://img.icons8.com/bubbles/100/000000/home.png"
-              alt="Homeicon"
-            />
-            <h6>Homely environment</h6>
           </div>
-          <div className="thirdicon">
-            <img
-              src="https://img.icons8.com/bubbles/100/000000/lock.png"
-              alt="Securityicon"
-            />
-            <h6>Home Security Device</h6>
-          </div>
-          <div className="forthicon">
-            <img
-              src="https://img.icons8.com/bubbles/100/000000/nurse-female.png"
-              alt="Nurseicon"
-            />
-            <h6>
-              Registered nurses, Licensed Practical nurses, and home health
-              aides and CNAs
-            </h6>
-          </div>
-          <div className="fifthicon">
-            <img
-              src="https://img.icons8.com/bubbles/100/000000/last-24-hours.png"
-              alt="24/7icon"
-            />
-            <h6>24/7 On-Site and Night Awake Staff</h6>
-          </div>
-          <div className="sixthicon">
-            <img
-              src="https://img.icons8.com/office/100/000000/bus2.png"
-              alt="van"
-            />
-
-            <h6>Transportation</h6>
-          </div>
-        </div>
-        <div className="Testimonials">
-          <h3>TESTIMONIAL</h3>
-          <DivSlider slides={DivSliderData} />
+          
+          <Link className="ApplyButton" to="/members">
+            Learn More
+          </Link>
         </div>
       </div>
     );

@@ -5,7 +5,7 @@ import New6 from "../assets/new6.jpg";
 import New12 from "../assets/new12.jpeg";
 import New10 from "../assets/new10.jpeg";
 
-export default class services extends Component {
+export default class members extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
   }

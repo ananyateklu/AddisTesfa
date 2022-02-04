@@ -30,14 +30,11 @@ export default class header extends Component {
             <Link className="link" to="/aboutus">
               ABOUT US
             </Link>
-            <Link className="link" to="/services">
-              OUR SERVICES
-            </Link>
             <Link className="link" to="/contactus">
               CONTACT US
             </Link>
-            <Link className="link" to="/location">
-              LOCATION
+            <Link className="link" to="/members">
+              MEMBERS
             </Link>
             <br />
             <a
@@ -46,19 +43,19 @@ export default class header extends Component {
               rel="noreferrer"
               target="_blank"
             >
-              APPLY NOW
+              DONATE
             </a>
           </div>
           <div className="Links">
             <NavLink
               activeStyle={{
-                color: "#1c77dfdc",
+                color: "brown",
                 backgroundColor: "transparent",
                 padding: "2px",
                 marginRight: "15px",
                 paddingTop: "40px",
                 paddingBottom: "8px",
-                borderBottom: "2.5px solid #68a5e7",
+                borderBottom: "2.5px solid brown",
               }}
               exact
               to="/"
@@ -68,12 +65,12 @@ export default class header extends Component {
             </NavLink>
             <NavLink
               activeStyle={{
-                color: "#1c77dfdc",
+                color: "brown",
                 backgroundColor: "transparent",
                 padding: "2px",
                 paddingTop: "40px",
                 paddingBottom: "8px",
-                borderBottom: "2.5px solid #68a5e7",
+                borderBottom: "2.5px solid brown",
               }}
               to="/aboutus"
               className="linkoff"
@@ -82,26 +79,12 @@ export default class header extends Component {
             </NavLink>
             <NavLink
               activeStyle={{
-                color: "#1c77dfdc",
+                color: "brown",
                 backgroundColor: "transparent",
                 padding: "2px",
                 paddingTop: "40px",
                 paddingBottom: "8px",
-                borderBottom: "2.5px solid #68a5e7",
-              }}
-              to="/services"
-              className="linkoff"
-            >
-              OUR SERVICES
-            </NavLink>
-            <NavLink
-              activeStyle={{
-                color: "#1c77dfdc",
-                backgroundColor: "transparent",
-                padding: "2px",
-                paddingTop: "40px",
-                paddingBottom: "8px",
-                borderBottom: "2.5px solid #68a5e7",
+                borderBottom: "2.5px solid brown",
               }}
               to="/contactus"
               className="linkoff"
@@ -110,17 +93,17 @@ export default class header extends Component {
             </NavLink>
             <NavLink
               activeStyle={{
-                color: "#1c77dfdc",
+                color: "brown",
                 backgroundColor: "transparent",
                 padding: "2px",
                 paddingTop: "40px",
                 paddingBottom: "8px",
-                borderBottom: "2.5px solid #68a5e7",
+                borderBottom: "2.5px solid brown",
               }}
-              to="/location"
+              to="/members"
               className="linkoff"
             >
-              LOCATION
+              MEMBERS
             </NavLink>
             <a
               className="ApplyButton"
@@ -128,9 +111,8 @@ export default class header extends Component {
               rel="noreferrer"
               target="_blank"
             >
-              APPLY NOW
+              DONATE
             </a>
-            <img className="Licence1" src={Licence1} alt="Licence" />
           </div>
         </header>
       </div>
