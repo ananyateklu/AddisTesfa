@@ -26,27 +26,11 @@ export default class footer extends Component {
               MEMBERS
             </Link>
             <br />
-            <a
-              className="Footerbutton"
-              href="https://drive.google.com/file/d/1GIHt1QLGl8RKLgSOyeDIg1rlJMD_f5hA/view?usp=sharing"
-              rel="noreferrer"
-              target="_blank"
-            >
-              DONATE
-            </a>
           </div>
         </div>
         <div className="Copyright">
           <h6>
-            © 2022, Addis Tesfa Brothers Unity. All Rights Reserved. Powered by{" "}
-            <a
-              className="icons8"
-              href="https://icons8.com"
-              rel="noreferrer"
-              target="_blank"
-            >
-              icons8
-            </a>
+            © 2022, Addis Tesfa Brothers Unity. All Rights Reserved. 
           </h6>
         </div>
       </div>

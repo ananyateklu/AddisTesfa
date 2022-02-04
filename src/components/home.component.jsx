@@ -115,7 +115,7 @@ export default class home extends Component {
           </div>
           </div>
           
-          <Link className="ApplyButton" to="/members">
+          <Link className="BoardM" to="/members">
             Learn More
           </Link>
         </div>
