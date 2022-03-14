@@ -18,6 +18,13 @@ export default class about extends Component {
         </div>
         <div className="Abouttext">
           <div className="AboutContent">
+            <h3 className="Title">OUR</h3>
+            <h3 className="Title2"> VISION</h3>
+            <h6>
+              To create a strong and dynamic unity among brothers who are
+              willing to bring about a positive impact on families, communities
+              and nations at large.
+            </h6>
             <div className="Titlediv">
               <h3 className="Title">ABOUT</h3>
               <h3 className="Title2"> ADDIS TESFA</h3>

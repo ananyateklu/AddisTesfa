@@ -7,6 +7,10 @@
   z-index: 10;
 }
 
+.facebook {
+  width: 50px;
+}
+
 .DonateButtonD {
   display: inline;
   position: absolute;
@@ -60,7 +64,7 @@
 .Links button {
   margin-left: 50px;
   margin-right: 80px;
-  background-color: brown;
+  background-color: #66260b;
   color: white;
   border: 2px solid #d9d9d9;
   width: 150px;
@@ -73,7 +77,7 @@
   margin-left: 50px;
   margin-right: 80px;
   background-color: aliceblue;
-  color: brown;
+  color: #66260b;
   border: 2px solid #d9d9d9;
   width: 150px;
   height: 30px;
@@ -97,12 +101,12 @@
   padding: 0px;
   background-color: transparent;
   padding-bottom: 8px;
-  border-bottom: 2.5px solid brown;
-  color: brown;
+  border-bottom: 2.5px solid #66260b;
+  color: #66260b;
 }
 
 .ApplyButton {
-  background-color: brown;
+  background-color: #66260b;
   color: aliceblue;
   border: 2px solid #d9d9d9;
   width: 150px;
@@ -113,11 +117,33 @@
 .ApplyButton:hover {
   margin: 0px;
   background-color: aliceblue;
-  color: brown;
+  color: #66260b;
   border: 2px solid #d9d9d9;
   width: 150px;
   font-size: 14px;
   margin-right: 30px;
+  border-radius: 3px;
+}
+
+.BoardM {
+  background-color: #66260b;
+  color: aliceblue;
+  border: 2px solid #d9d9d9;
+  width: 150px;
+  font-size: 14px;
+  margin-right: 30px;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+.BoardM:hover {
+  margin: 0px;
+  background-color: aliceblue;
+  color: #66260b;
+  border: 2px solid #d9d9d9;
+  width: 150px;
+  font-size: 14px;
+  margin-right: 30px;
+  margin-top: 20px;
   border-radius: 3px;
 }
 /* CSS for Header component ends here */
@@ -129,7 +155,7 @@
   padding-top: 0px;
 }
 .Footer {
-  background-color: rgb(68, 63, 63);
+  background-color: #66260b;
   padding-top: 10px;
   padding-bottom: 30px;
   position: relative;
@@ -137,7 +163,7 @@
   bottom: 0;
   z-index: 1;
 }
-.Footer img {
+.FooterLogo {
   width: 230px;
 }
 .Flex-containerfooter {
@@ -152,7 +178,7 @@
   margin-bottom: 20px;
 }
 .Footerbutton {
-  background-color: brown;
+  background-color: #66260b;
   color: white;
   border: 2px solid #d9d9d9;
   font-size: 14px;
@@ -162,7 +188,7 @@
 }
 .Footerbutton:hover {
   background-color: aliceblue;
-  color: brown;
+  color: #66260b;
   border: 2px solid #d9d9d9;
   font-size: 14px;
   margin-top: 10px;
@@ -230,7 +256,7 @@
   color: black;
 }
 .Title2 {
-  color: brown;
+  color: #66260b;
   display: inline;
 }
 .Titlediv2 {
@@ -466,7 +492,7 @@ h6 {
 .firsticon {
   display: inline-table;
   width: 10vw;
-  background-color: brown;
+  background-color: #66260b;
   color: aliceblue;
   margin-left: 3vw;
   margin-right: 3vw;
@@ -474,67 +500,67 @@ h6 {
   text-align: center;
   height: 200px;
   border-radius: 25px;
-  border: 4px solid brown;
+  border: 4px solid #66260b;
 }
 .secondicon {
   display: inline-table;
   text-align: center;
-  background-color: brown;
+  background-color: #66260b;
   color: aliceblue;
   width: 10vw;
   margin-left: 3vw;
   margin-right: 3vw;
   height: 200px;
   border-radius: 25px;
-  border: 4px solid brown;
+  border: 4px solid #66260b;
 }
 .thirdicon {
   display: inline-table;
   text-align: center;
-  background-color: brown;
+  background-color: #66260b;
   color: aliceblue;
   width: 10vw;
   margin-left: 3vw;
   margin-right: 3vw;
   height: 200px;
   border-radius: 25px;
-  border: 4px solid brown;
+  border: 4px solid #66260b;
 }
 .forthicon {
   display: inline-table;
   text-align: center;
-  background-color: brown;
+  background-color: #66260b;
   color: aliceblue;
   width: 10vw;
   margin-left: 3vw;
   margin-right: 3vw;
   height: 200px;
   border-radius: 25px;
-  border: 4px solid brown;
+  border: 4px solid #66260b;
 }
 .fifthicon {
   display: inline-table;
   text-align: center;
-  background-color: brown;
+  background-color: #66260b;
   color: aliceblue;
   width: 10vw;
   margin-left: 3vw;
   margin-right: 3vw;
   height: 200px;
   border-radius: 25px;
-  border: 4px solid brown;
+  border: 4px solid #66260b;
 }
 .sixthicon {
   display: inline-table;
   text-align: center;
-  background-color: brown;
+  background-color: #66260b;
   color: aliceblue;
   width: 10vw;
   margin-left: 3vw;
   margin-right: 3vw;
   height: 200px;
   border-radius: 25px;
-  border: 4px solid brown;
+  border: 4px solid #66260b;
 }
 
 .Homewelcome {
@@ -650,7 +676,7 @@ h6 {
   top: 50%;
   right: 220px;
   font-size: 3rem;
-  color: brown;
+  color: #66260b;
   z-index: 2;
   cursor: pointer;
   user-select: none;
@@ -661,7 +687,7 @@ h6 {
   top: 50%;
   left: 220px;
   font-size: 3rem;
-  color: brown;
+  color: #66260b;
   z-index: 2;
   cursor: pointer;
   user-select: none;
@@ -700,6 +726,7 @@ h6 {
 
 .Aboutpic img {
   width: 100%;
+  margin-bottom: 30px;
 }
 
 .Abouttext {
@@ -776,7 +803,7 @@ h6 {
 }
 
 .Servicestext h4 {
-  color: brown;
+  color: #66260b;
   font-weight: 700;
   margin-bottom: 30px;
   margin-top: 40px;
@@ -848,7 +875,7 @@ h6 {
 }
 
 .Contacttext h4 {
-  color: brown;
+  color: #66260b;
   font-weight: 600;
 }
 
@@ -862,7 +889,7 @@ h6 {
   padding: 0;
   margin: auto;
   border: none;
-  border: 1.2px dashed brown;
+  border: 1.2px dashed #66260b;
 }
 
 .Contacttitle img {
@@ -871,7 +898,7 @@ h6 {
 }
 
 .Contacttitle h3 {
-  color: brown;
+  color: #66260b;
   font-weight: 700;
   margin-bottom: 2px;
   margin-top: 50px;
@@ -923,20 +950,20 @@ h6 {
   width: 200px;
 }
 .Contactinfo h4 {
-  color: brown;
+  color: #66260b;
   font-weight: 600;
   font-size: larger;
   margin-bottom: 20px;
 }
 
 .Contactinfo h6 {
-  color: brown;
+  color: #66260b;
   font-weight: 600;
   font-size: medium;
   margin-bottom: 20px;
 }
 .SubmitBtn {
-  background-color: brown;
+  background-color: #66260b;
   color: white;
   border: 2px solid #d9d9d9;
   width: 170px;
@@ -948,7 +975,7 @@ h6 {
 }
 .SubmitBtn:hover {
   background-color: aliceblue;
-  color: brown;
+  color: #66260b;
   border: 2px solid #d9d9d9;
   width: 170px;
   margin: 0px;
@@ -1167,7 +1194,7 @@ h6 {
 .Locationtext2 h6 {
   display: block;
   width: 30vw;
-  color: brown;
+  color: #66260b;
   font-weight: 500;
   font-size: medium;
 }
@@ -1248,7 +1275,7 @@ h6 {
     margin: 0;
   }
   .Bur {
-    color: brown;
+    color: #66260b;
     height: 40px;
     width: 40px;
     float: right;
@@ -1261,7 +1288,7 @@ h6 {
     margin-left: 25px;
     margin-right: 80px;
     margin-top: 15px;
-    background-color: brown;
+    background-color: #66260b;
     color: white;
     border: 3px solid #d9d9d9;
     width: 110px;
@@ -1397,7 +1424,7 @@ h6 {
     position: relative;
     display: block;
     font-size: large;
-    color: brown;
+    color: #66260b;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
     right: 15px;
@@ -1515,7 +1542,7 @@ h6 {
     top: 50%;
     right: 10px;
     font-size: 3rem;
-    color: brown;
+    color: #66260b;
     z-index: 2;
     cursor: pointer;
     user-select: none;
@@ -1526,7 +1553,7 @@ h6 {
     top: 50%;
     left: 10px;
     font-size: 3rem;
-    color: brown;
+    color: #66260b;
     z-index: 2;
     cursor: pointer;
     user-select: none;
@@ -1674,14 +1701,14 @@ h6 {
   .Locationtext1 h6 {
     display: block;
     width: 60vw;
-    color: brown;
+    color: #66260b;
     font-size: medium;
     font-weight: 500;
   }
   .Locationtext2 h6 {
     display: block;
     width: 60vw;
-    color: brown;
+    color: #66260b;
     font-weight: 500;
     font-size: medium;
   }
@@ -1715,7 +1742,7 @@ h6 {
     padding: 10px;
   }
   .ApplyButton {
-    background-color: brown;
+    background-color: #66260b;
     color: aliceblue;
     border: 2px solid #d9d9d9;
     font-size: 14px;
@@ -1725,7 +1752,7 @@ h6 {
   .ApplyButton:hover {
     margin: 0px;
     background-color: aliceblue;
-    color: brown;
+    color: #66260b;
     border: 2px solid #d9d9d9;
     font-size: 14px;
     margin-right: 0px;
@@ -1780,7 +1807,7 @@ h6 {
 }
 
 .BoardM {
-  background-color: brown;
+  background-color: #66260b;
   color: #f0f8ff;
   margin-top: 40px;
   margin-right: 0;
@@ -1788,7 +1815,7 @@ h6 {
 }
 .BoardM:hover {
   background-color: aliceblue;
-  color: brown;
+  color: #66260b;
   border: 2px solid #d9d9d9;
   font-size: 14px;
   margin-right: 0px;

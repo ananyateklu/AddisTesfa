@@ -45,32 +45,23 @@ export default class header extends Component {
               >
                 <input
                   type="hidden"
-                  name="business"
-                  value="donations@kcparkfriends.org"
+                  name="hosted_button_id"
+                  value="8EUBT5TXF968L"
                 />
-                <input type="hidden" name="no_recurring" value="0" />
-                <input
-                  type="hidden"
-                  name="item_name"
-                  value="Friends of the Park"
-                />
-                <input
-                  type="hidden"
-                  name="item_number"
-                  value="Fall Cleanup Campaign"
-                />
-                <input type="hidden" name="currency_code" value="USD" />
                 <input
                   type="image"
-                  name="submit"
                   src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
-                  alt="Donate"
+                  border="0"
+                  name="submit"
+                  title="PayPal - The safer, easier way to pay online!"
+                  alt="Donate with PayPal button"
                 />
                 <img
                   alt=""
+                  border="0"
+                  src="https://www.paypal.com/en_US/i/scr/pixel.gif"
                   width="1"
                   height="1"
-                  src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
                 />
               </form>
             </div>
@@ -78,12 +69,12 @@ export default class header extends Component {
           <div className="Links">
             <NavLink
               activeStyle={{
-                color: "brown",
+                color: "#66260b",
                 backgroundColor: "transparent",
                 padding: "2px",
                 marginRight: "15px",
                 paddingBottom: "8px",
-                borderBottom: "2.5px solid brown",
+                borderBottom: "2.5px solid #66260b",
               }}
               exact
               to="/"
@@ -93,11 +84,11 @@ export default class header extends Component {
             </NavLink>
             <NavLink
               activeStyle={{
-                color: "brown",
+                color: "#66260b",
                 backgroundColor: "transparent",
                 padding: "2px",
                 paddingBottom: "8px",
-                borderBottom: "2.5px solid brown",
+                borderBottom: "2.5px solid #66260b",
               }}
               to="/aboutus"
               className="linkoff"
@@ -106,11 +97,11 @@ export default class header extends Component {
             </NavLink>
             <NavLink
               activeStyle={{
-                color: "brown",
+                color: "#66260b",
                 backgroundColor: "transparent",
                 padding: "2px",
                 paddingBottom: "8px",
-                borderBottom: "2.5px solid brown",
+                borderBottom: "2.5px solid #66260b",
               }}
               to="/contactus"
               className="linkoff"
@@ -119,56 +110,46 @@ export default class header extends Component {
             </NavLink>
             <NavLink
               activeStyle={{
-                color: "brown",
+                color: "#66260b",
                 backgroundColor: "transparent",
                 padding: "2px",
                 paddingBottom: "8px",
-                borderBottom: "2.5px solid brown",
+                borderBottom: "2.5px solid #66260b",
               }}
               to="/members"
               className="linkoff"
             >
               MEMBERS
             </NavLink>
-            
           </div>
           <div className="DonateButtonD">
-              <form
+          <form
                 action="https://www.paypal.com/donate"
                 method="post"
                 target="_top"
               >
                 <input
                   type="hidden"
-                  name="business"
-                  value="donations@kcparkfriends.org"
+                  name="hosted_button_id"
+                  value="8EUBT5TXF968L"
                 />
-                <input type="hidden" name="no_recurring" value="0" />
-                <input
-                  type="hidden"
-                  name="item_name"
-                  value="Friends of the Park"
-                />
-                <input
-                  type="hidden"
-                  name="item_number"
-                  value="Fall Cleanup Campaign"
-                />
-                <input type="hidden" name="currency_code" value="USD" />
                 <input
                   type="image"
-                  name="submit"
                   src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
-                  alt="Donate"
+                  border="0"
+                  name="submit"
+                  title="PayPal - The safer, easier way to pay online!"
+                  alt="Donate with PayPal button"
                 />
                 <img
                   alt=""
+                  border="0"
+                  src="https://www.paypal.com/en_US/i/scr/pixel.gif"
                   width="1"
                   height="1"
-                  src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
                 />
               </form>
-            </div>
+          </div>
         </header>
       </div>
     );
