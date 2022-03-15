@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Contactpic from "../assets/contactpic3.jpg";
 import Contactback from "../assets/contactback.jpg";
 import Gmap from "./googlemaps.component";
 import Gmap2 from "./googlemaps2.component";
@@ -37,7 +36,7 @@ class contact extends Component {
     return (
       <div className="Contact">
         <div className="Contactpic">
-          <img src={Contactback} alt="Homecare" />
+          <img src={Contactback} alt="Contact" />
         </div>
         <div className="Contacttitle">
           <h3>CONTACT US</h3>

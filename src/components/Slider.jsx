@@ -1,8 +1,4 @@
 import React, { Component } from "react";
-import Pic1 from "../assets/Home1.jpg";
-import Pic2 from "../assets/Home2.jpg";
-import Pic3 from "../assets/Home3.jpg";
-import Pic4 from "../assets/Home4.jpg";
 import backPic from "../assets/Renaissance dam.jpeg";
 
 export default class Slider extends Component {
@@ -54,7 +50,7 @@ export default class Slider extends Component {
                   አለኝታነትን በተግባር ማረጋገጥ
                 </h6>
               </div>
-              <img className="slideimg" src={Pic1} alt="pic1" />
+              <img className="slideimg" src={backPic} alt="pic1" />
             </div>
             <div className="slide">
               <div className="picicon">
@@ -65,7 +61,7 @@ export default class Slider extends Component {
                   Communities and Nations at Large.
                 </h6>
               </div>
-              <img className="slideimg" src={Pic2} alt="pic2" />
+              <img className="slideimg" src={backPic} alt="pic2" />
             </div>
             <div className="slide">
               <div className="picicon">
@@ -75,7 +71,7 @@ export default class Slider extends Component {
                   አለኝታነትን በተግባር ማረጋገጥ
                 </h6>
               </div>
-              <img className="slideimg" src={Pic3} alt="pic3" />
+              <img className="slideimg" src={backPic} alt="pic3" />
             </div>
             <div className="slide">
               <div className="picicon">
@@ -86,7 +82,7 @@ export default class Slider extends Component {
                   Communities and Nations at Large.
                 </h6>
               </div>
-              <img className="slideimg" src={Pic4} alt="pic4" />
+              <img className="slideimg" src={backPic} alt="pic4" />
             </div>
 
             <div className="navigation-auto">

@@ -7,9 +7,6 @@ import Board2 from "../assets/board2.png";
 import Board3 from "../assets/board3.png";
 import Board4 from "../assets/board4.png";
 import Board5 from "../assets/board5.png";
-import DivSlider from "./DivSlider";
-import { DivSliderData } from "./DivSliderData";
-import Licence1 from "../assets/Licence1.png";
 import { NavLink, Link } from "react-router-dom";
 
 export default class home extends Component {

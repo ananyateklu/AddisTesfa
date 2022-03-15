@@ -1,10 +1,5 @@
 import React, { Component } from "react";
 import Aboutpic from "../assets/abouteth.jpg";
-import Aboutback from "../assets/aboutback.jpg";
-import New1 from "../assets/new1.jpg";
-import New2 from "../assets/new2.jpg";
-import New3 from "../assets/new3.jpg";
-import New4 from "../assets/new4.jpg";
 
 export default class about extends Component {
   componentDidMount() {
@@ -14,7 +9,7 @@ export default class about extends Component {
     return (
       <div className="About">
         <div className="Aboutpic">
-          <img src={Aboutpic} alt="Homecare" />
+          <img src={Aboutpic} alt="about" />
         </div>
         <div className="Abouttext">
           <div className="AboutContent">
@@ -29,7 +24,6 @@ export default class about extends Component {
               <h3 className="Title">ABOUT</h3>
               <h3 className="Title2"> ADDIS TESFA</h3>
             </div>
-            {/* <h3>ABOUT DIVINE CARE LLC</h3> */}
             <h6>
               Addis Tesfa Brothers Unity: is a non-profit organization
               incorporated under the laws of the state of Minnesota. This

@@ -3,7 +3,6 @@ import logo from "../assets/addistesfalogo.png";
 import { NavLink, Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import "./components.css";
-import Licence1 from "../assets/Licence1.png";
 export default class header extends Component {
   state = {
     mobile: true,
@@ -35,6 +34,9 @@ export default class header extends Component {
             </Link>
             <Link className="link" to="/members">
               MEMBERS
+            </Link>
+            <Link className="link" to="/updates">
+              UPDATES
             </Link>
             <br />
             <div className="DonateButtonM">
@@ -120,6 +122,19 @@ export default class header extends Component {
               className="linkoff"
             >
               MEMBERS
+            </NavLink>
+            <NavLink
+              activeStyle={{
+                color: "#66260b",
+                backgroundColor: "transparent",
+                padding: "2px",
+                paddingBottom: "8px",
+                borderBottom: "2.5px solid #66260b",
+              }}
+              to="/updates"
+              className="linkoff"
+            >
+              UPDATES
             </NavLink>
           </div>
           <div className="DonateButtonD">
