@@ -4,7 +4,7 @@ import Board5 from "../assets/board5.png";
 import Board11 from "../assets/board11.png";
 import Quote from "../assets/quote.png";
 
-export default class updates extends Component {
+export default class Updates extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
   }

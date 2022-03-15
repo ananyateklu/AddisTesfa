@@ -7,9 +7,9 @@ import Board2 from "../assets/board2.png";
 import Board3 from "../assets/board3.png";
 import Board4 from "../assets/board4.png";
 import Board5 from "../assets/board5.png";
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-export default class home extends Component {
+export default class Home extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
   }

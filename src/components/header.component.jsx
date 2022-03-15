@@ -3,7 +3,8 @@ import logo from "../assets/addistesfalogo.png";
 import { NavLink, Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import "./components.css";
-export default class header extends Component {
+
+export default class Header extends Component {
   state = {
     mobile: true,
   };

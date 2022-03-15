@@ -4,7 +4,7 @@ import Gmap from "./googlemaps.component";
 import Gmap2 from "./googlemaps2.component";
 import emailjs from "emailjs-com";
 
-class contact extends Component {
+class Contact extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
   }
@@ -115,4 +115,4 @@ class contact extends Component {
   }
 }
 
-export default contact;
+export default Contact;

@@ -3,7 +3,7 @@ import Logo from "../assets/addistesfalogo.png";
 import { Link } from "react-router-dom";
 import Facebook from "../assets/facebook.png";
 
-export default class footer extends Component {
+export default class Footer extends Component {
   render() {
     return (
       <div className="Footer">

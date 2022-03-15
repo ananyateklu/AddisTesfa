@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Aboutpic from "../assets/abouteth.jpg";
 
-export default class about extends Component {
+export default class About extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
   }

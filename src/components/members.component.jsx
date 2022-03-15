@@ -17,7 +17,7 @@ import Board15 from "../assets/board15.png";
 import Board16 from "../assets/board16.png";
 import Board17 from "../assets/board17.png";
 import Locationpic from "../assets/memberstop.jpg";
-export default class members extends Component {
+export default class Members extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
   }
