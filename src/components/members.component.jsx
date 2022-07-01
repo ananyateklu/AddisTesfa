@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Board1 from "../assets/board1.png";
+import Board1 from "../assets/board1.jpg";
 import Board2 from "../assets/board2.png";
-import Board3 from "../assets/board3.png";
+import Board3 from "../assets/board3.jpg";
 import Board4 from "../assets/board4.png";
 import Board5 from "../assets/board5.png";
 import Board6 from "../assets/board6.png";
@@ -36,7 +36,7 @@ export default class Members extends Component {
             <div className="location1">
               <div className="Locationpic1">
                 <img alt="location-pic" src={Board1} />
-                <h4>Ashenafi Gebe</h4>
+                <h4>Seyoum workneh</h4>
                 <h5>Chairman</h5>
               </div>
               <div className="Locationpic2">
@@ -46,7 +46,7 @@ export default class Members extends Component {
               </div>{" "}
               <div className="Locationpic3">
                 <img alt="location-pic" src={Board3} />
-                <h4>Seyoum workneh</h4>
+                <h4>Zenebe Assefa</h4>
                 <h5>Secretary</h5>
               </div>{" "}
               <div className="Locationpic4">
@@ -66,7 +66,7 @@ export default class Members extends Component {
           <div className="Locationpics">
             <div className="location1">
               <div className="Locationpic1">
-                <img alt="location-pic" src={Board1} />
+                <img alt="location-pic" src={Board17} />
                 <h4>Ashenafi Gebe</h4>
               </div>
               <div className="Locationpic2">
@@ -74,7 +74,7 @@ export default class Members extends Component {
                 <h4>Teshome Belayneh</h4>
               </div>{" "}
               <div className="Locationpic3">
-                <img alt="location-pic" src={Board3} />
+                <img alt="location-pic" src={Board1} />
                 <h4>Seyoum workneh</h4>
               </div>{" "}
               <div className="Locationpic4">
@@ -132,7 +132,7 @@ export default class Members extends Component {
             </div>
             <div className="location1">
               <div className="Locationpic1">
-                <img alt="location-pic" src={Board17} />
+                <img alt="location-pic" src={Board3} />
                 <h4>Zeneb Assefa</h4>
               </div>
             </div>
