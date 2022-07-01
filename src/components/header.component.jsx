@@ -3,8 +3,8 @@ import logo from "../assets/addistesfalogo.png";
 import { NavLink, Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import "./components.css";
-import Licence1 from "../assets/Licence1.png";
-export default class header extends Component {
+
+export default class Header extends Component {
   state = {
     mobile: true,
   };
@@ -30,35 +30,54 @@ export default class header extends Component {
             <Link className="link" to="/aboutus">
               ABOUT US
             </Link>
-            <Link className="link" to="/services">
-              OUR SERVICES
-            </Link>
             <Link className="link" to="/contactus">
               CONTACT US
             </Link>
-            <Link className="link" to="/location">
-              LOCATION
+            <Link className="link" to="/members">
+              MEMBERS
+            </Link>
+            <Link className="link" to="/updates">
+              UPDATES
             </Link>
             <br />
-            <a
-              className="ApplyButton"
-              href="https://drive.google.com/file/d/1GIHt1QLGl8RKLgSOyeDIg1rlJMD_f5hA/view?usp=sharing"
-              rel="noreferrer"
-              target="_blank"
-            >
-              APPLY NOW
-            </a>
+            <div className="DonateButtonM">
+              <form
+                action="https://www.paypal.com/donate"
+                method="post"
+                target="_top"
+              >
+                <input
+                  type="hidden"
+                  name="hosted_button_id"
+                  value="8EUBT5TXF968L"
+                />
+                <input
+                  type="image"
+                  src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
+                  border="0"
+                  name="submit"
+                  title="PayPal - The safer, easier way to pay online!"
+                  alt="Donate with PayPal button"
+                />
+                <img
+                  alt=""
+                  border="0"
+                  src="https://www.paypal.com/en_US/i/scr/pixel.gif"
+                  width="1"
+                  height="1"
+                />
+              </form>
+            </div>
           </div>
           <div className="Links">
             <NavLink
               activeStyle={{
-                color: "#1c77dfdc",
+                color: "#66260b",
                 backgroundColor: "transparent",
                 padding: "2px",
                 marginRight: "15px",
-                paddingTop: "40px",
                 paddingBottom: "8px",
-                borderBottom: "2.5px solid #68a5e7",
+                borderBottom: "2.5px solid #66260b",
               }}
               exact
               to="/"
@@ -68,12 +87,11 @@ export default class header extends Component {
             </NavLink>
             <NavLink
               activeStyle={{
-                color: "#1c77dfdc",
+                color: "#66260b",
                 backgroundColor: "transparent",
                 padding: "2px",
-                paddingTop: "40px",
                 paddingBottom: "8px",
-                borderBottom: "2.5px solid #68a5e7",
+                borderBottom: "2.5px solid #66260b",
               }}
               to="/aboutus"
               className="linkoff"
@@ -82,26 +100,11 @@ export default class header extends Component {
             </NavLink>
             <NavLink
               activeStyle={{
-                color: "#1c77dfdc",
+                color: "#66260b",
                 backgroundColor: "transparent",
                 padding: "2px",
-                paddingTop: "40px",
                 paddingBottom: "8px",
-                borderBottom: "2.5px solid #68a5e7",
-              }}
-              to="/services"
-              className="linkoff"
-            >
-              OUR SERVICES
-            </NavLink>
-            <NavLink
-              activeStyle={{
-                color: "#1c77dfdc",
-                backgroundColor: "transparent",
-                padding: "2px",
-                paddingTop: "40px",
-                paddingBottom: "8px",
-                borderBottom: "2.5px solid #68a5e7",
+                borderBottom: "2.5px solid #66260b",
               }}
               to="/contactus"
               className="linkoff"
@@ -110,27 +113,58 @@ export default class header extends Component {
             </NavLink>
             <NavLink
               activeStyle={{
-                color: "#1c77dfdc",
+                color: "#66260b",
                 backgroundColor: "transparent",
                 padding: "2px",
-                paddingTop: "40px",
                 paddingBottom: "8px",
-                borderBottom: "2.5px solid #68a5e7",
+                borderBottom: "2.5px solid #66260b",
               }}
-              to="/location"
+              to="/members"
               className="linkoff"
             >
-              LOCATION
+              MEMBERS
             </NavLink>
-            <a
-              className="ApplyButton"
-              href="https://drive.google.com/file/d/1GIHt1QLGl8RKLgSOyeDIg1rlJMD_f5hA/view?usp=sharing"
-              rel="noreferrer"
-              target="_blank"
+            <NavLink
+              activeStyle={{
+                color: "#66260b",
+                backgroundColor: "transparent",
+                padding: "2px",
+                paddingBottom: "8px",
+                borderBottom: "2.5px solid #66260b",
+              }}
+              to="/updates"
+              className="linkoff"
             >
-              APPLY NOW
-            </a>
-            <img className="Licence1" src={Licence1} alt="Licence" />
+              UPDATES
+            </NavLink>
+          </div>
+          <div className="DonateButtonD">
+          <form
+                action="https://www.paypal.com/donate"
+                method="post"
+                target="_top"
+              >
+                <input
+                  type="hidden"
+                  name="hosted_button_id"
+                  value="8EUBT5TXF968L"
+                />
+                <input
+                  type="image"
+                  src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
+                  border="0"
+                  name="submit"
+                  title="PayPal - The safer, easier way to pay online!"
+                  alt="Donate with PayPal button"
+                />
+                <img
+                  alt=""
+                  border="0"
+                  src="https://www.paypal.com/en_US/i/scr/pixel.gif"
+                  width="1"
+                  height="1"
+                />
+              </form>
           </div>
         </header>
       </div>

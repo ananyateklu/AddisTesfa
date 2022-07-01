@@ -3,11 +3,11 @@ import Header from "./components/header.component";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Contactus from "./components/contact.component";
 import Home from "./components/home.component";
-import Services from "./components/services.component";
 import Aboutus from "./components/about.component";
-import Location from "./components/location.component";
 import Footer from "./components/footer.component";
-import "./App.css"
+import Members from "./components/members.component";
+import Updates from "./components/updates.component";
+import "./App.css";
 
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
@@ -33,9 +33,9 @@ function App() {
                 <Switch location= {location}>
                   <Route path="/" exact component={Home} />
                   <Route path="/contactus" exact component={Contactus} />
-                  <Route path="/services" exact component={Services} />
                   <Route path="/aboutus" exact component={Aboutus} />
-                  <Route path="/location" exact component={Location} />
+                  <Route path="/members" exact component={Members} />
+                  <Route path="/updates" exact component={Updates} />
                 </Switch>
               </CSSTransition>
             </TransitionGroup>

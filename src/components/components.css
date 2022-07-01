@@ -2,6 +2,32 @@
 .Logo {
   width: 6.5cm;
   display: inline;
+  padding-left: 30px;
+  margin-top: 20px;
+  z-index: 10;
+}
+
+.facebook {
+  width: 50px;
+}
+
+.DonateButtonD {
+  display: inline;
+  position: absolute;
+  right: 10px;
+  margin-top: 27px;
+}
+
+.DonateButtonD form {
+  display: inline;
+}
+
+.BackPic {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 300px;
+  opacity: 0.5;
+  position: absolute;
 }
 
 .Burger {
@@ -12,17 +38,21 @@
 }
 
 .Header {
-  position: fixed;
-  background-color: aliceblue;
-  height: 99px;
+  position: absolute;
+  background-color: transparent;
   width: 100%;
   z-index: 3;
+}
+
+.Home {
+  width: 100%;
 }
 
 .Links {
   display: inline;
   float: right;
-  margin-top: 40px;
+  margin-top: 30px;
+  margin-right: 100px;
 }
 
 .Links a {
@@ -34,7 +64,7 @@
 .Links button {
   margin-left: 50px;
   margin-right: 80px;
-  background-color: brown;
+  background-color: #66260b;
   color: white;
   border: 2px solid #d9d9d9;
   width: 150px;
@@ -47,7 +77,7 @@
   margin-left: 50px;
   margin-right: 80px;
   background-color: aliceblue;
-  color: #5893d4;
+  color: #66260b;
   border: 2px solid #d9d9d9;
   width: 150px;
   height: 30px;
@@ -57,7 +87,6 @@
 
 .linkon {
   color: aliceblue;
-  padding-top: 40px;
   padding-bottom: 40px;
 }
 .linkoff {
@@ -71,14 +100,13 @@
 .linkoff:hover {
   padding: 0px;
   background-color: transparent;
-  padding-top: 40px;
   padding-bottom: 8px;
-  border-bottom: 2.5px solid brown;
-  color: #1c77dfdc;
+  border-bottom: 2.5px solid #66260b;
+  color: #66260b;
 }
 
 .ApplyButton {
-  background-color: brown;
+  background-color: #66260b;
   color: aliceblue;
   border: 2px solid #d9d9d9;
   width: 150px;
@@ -89,12 +117,33 @@
 .ApplyButton:hover {
   margin: 0px;
   background-color: aliceblue;
-  color: #5893d4;
+  color: #66260b;
   border: 2px solid #d9d9d9;
   width: 150px;
   font-size: 14px;
   margin-right: 30px;
-  margin-left: 23.2px;
+  border-radius: 3px;
+}
+
+.BoardM {
+  background-color: #66260b;
+  color: aliceblue;
+  border: 2px solid #d9d9d9;
+  width: 150px;
+  font-size: 14px;
+  margin-right: 30px;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+.BoardM:hover {
+  margin: 0px;
+  background-color: aliceblue;
+  color: #66260b;
+  border: 2px solid #d9d9d9;
+  width: 150px;
+  font-size: 14px;
+  margin-right: 30px;
+  margin-top: 20px;
   border-radius: 3px;
 }
 /* CSS for Header component ends here */
@@ -106,14 +155,15 @@
   padding-top: 0px;
 }
 .Footer {
-  background-color: #5893d4;
+  background-color: #66260b;
   padding-top: 10px;
+  padding-bottom: 30px;
   position: relative;
   width: 100%;
   bottom: 0;
   z-index: 1;
 }
-.Footer img {
+.FooterLogo {
   width: 230px;
 }
 .Flex-containerfooter {
@@ -124,25 +174,25 @@
 }
 .Flexfooter2 {
   flex: 1;
+  margin-top: -40px;
+  margin-bottom: 20px;
 }
 .Footerbutton {
-  background-color: #5893d4;
+  background-color: #66260b;
   color: white;
   border: 2px solid #d9d9d9;
-  margin-top: 20px;
-  width: 80px;
-  height: 30px;
   font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 50px;
   border-radius: 3px;
 }
 .Footerbutton:hover {
   background-color: aliceblue;
-  color: #5893d4;
+  color: #66260b;
   border: 2px solid #d9d9d9;
-  width: 80px;
-  height: 30px;
   font-size: 14px;
   margin-top: 10px;
+  margin-bottom: 50px;
   border-radius: 3px;
 }
 .footerlinks {
@@ -187,14 +237,11 @@
   padding-top: 15px;
   margin: 0;
   font-weight: 500;
-  color: #2169bb;
+  color: black;
 }
 .icons8 {
   padding: 0;
   margin: 0;
-}
-.icons8:visited {
-  color: #2169bb;
 }
 /* CSS for footer component ends here */
 
@@ -209,7 +256,7 @@
   color: black;
 }
 .Title2 {
-  color: brown;
+  color: #66260b;
   display: inline;
 }
 .Titlediv2 {
@@ -250,43 +297,48 @@ h6 {
   margin: 10px;
 }
 .imgbody {
-  margin: 0;
   padding: 0;
-  height: 217px;
   display: flex;
   position: relative;
   align-items: center;
 }
 .slider {
   width: 100vw;
-  margin-top: 220px;
+  margin-top: 100px;
   height: 435px;
   position: relative;
   overflow: hidden;
 }
 .slides {
-  width: 300%;
+  width: 400%;
   height: 500px;
   display: flex;
 }
 .slideimg {
   width: 100vw;
+  display: none;
 }
 .picicon {
   display: inline-table;
   position: absolute;
-  background-color: aliceblue;
-  width: 15vw;
-  opacity: 0.7;
-  margin-left: 70vw;
-  margin-top: 50px;
-  padding-top: 50px;
+  background-color: rgba(67, 80, 97, 0.5);
+  width: 30vw;
+  margin-left: 10vw;
+  margin-top: 20px;
   margin-right: 4vw;
   margin-bottom: 4vh;
   text-align: center;
-  height: 230px;
+  height: 330px;
   border-radius: 25px;
-  border: 4px solid #5893d4;
+  border: 4px solid gray;
+}
+
+.picicon h3 {
+  color: white;
+}
+
+.picicon h6 {
+  color: white;
 }
 
 .slides input {
@@ -306,7 +358,7 @@ h6 {
   justify-content: center;
 }
 .manual-btn {
-  border: 2px solid brown;
+  border: 2px solid transparent;
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
@@ -318,7 +370,7 @@ h6 {
 }
 
 .manual-btn:hover {
-  background-color: brown;
+  background-color: transparent;
 }
 
 #radio1:checked ~ .first {
@@ -334,7 +386,7 @@ h6 {
   margin-left: -100%;
 }
 #fradio {
-  background-color: brown;
+  background-color: transparent;
 }
 
 .navigation-auto {
@@ -346,7 +398,7 @@ h6 {
 }
 
 .navigation-auto div {
-  border: 2px solid brown;
+  border: 2px solid transparent;
   padding: 5px;
   border-radius: 10px;
 }
@@ -356,16 +408,16 @@ h6 {
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1 {
-  background-color: brown;
+  background-color: transparent;
 }
 #radio2:checked ~ .navigation-auto .auto-btn2 {
-  background-color: brown;
+  background-color: transparent;
 }
 #radio3:checked ~ .navigation-auto .auto-btn3 {
-  background-color: brown;
+  background-color: transparent;
 }
 #radio4:checked ~ .navigation-auto .auto-btn4 {
-  background-color: brown;
+  background-color: transparent;
 }
 
 .flex-containerhome {
@@ -375,12 +427,15 @@ h6 {
 .flex1 {
   flex: 1;
   margin-right: 0px;
-  width: 65vw;
+  width: 45vw;
+  background-color: rgb(230, 227, 227, 0.7);
 }
 
 .flex1in {
-  width: 32vw;
-  margin-left: 50px;
+  width: 42vw;
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-bottom: 30px;
 }
 
 .flex1 h3 {
@@ -393,7 +448,7 @@ h6 {
 }
 
 .flex2 {
-  width: 55%;
+  width: 45vw;
 }
 
 .flex2 h3 {
@@ -437,7 +492,7 @@ h6 {
 .firsticon {
   display: inline-table;
   width: 10vw;
-  background-color: brown;
+  background-color: #66260b;
   color: aliceblue;
   margin-left: 3vw;
   margin-right: 3vw;
@@ -445,67 +500,67 @@ h6 {
   text-align: center;
   height: 200px;
   border-radius: 25px;
-  border: 4px solid brown;
+  border: 4px solid #66260b;
 }
 .secondicon {
   display: inline-table;
   text-align: center;
-  background-color: brown;
+  background-color: #66260b;
   color: aliceblue;
   width: 10vw;
   margin-left: 3vw;
   margin-right: 3vw;
   height: 200px;
   border-radius: 25px;
-  border: 4px solid brown;
+  border: 4px solid #66260b;
 }
 .thirdicon {
   display: inline-table;
   text-align: center;
-  background-color: brown;
+  background-color: #66260b;
   color: aliceblue;
   width: 10vw;
   margin-left: 3vw;
   margin-right: 3vw;
   height: 200px;
   border-radius: 25px;
-  border: 4px solid brown;
+  border: 4px solid #66260b;
 }
 .forthicon {
   display: inline-table;
   text-align: center;
-  background-color: brown;
+  background-color: #66260b;
   color: aliceblue;
   width: 10vw;
   margin-left: 3vw;
   margin-right: 3vw;
   height: 200px;
   border-radius: 25px;
-  border: 4px solid brown;
+  border: 4px solid #66260b;
 }
 .fifthicon {
   display: inline-table;
   text-align: center;
-  background-color: brown;
+  background-color: #66260b;
   color: aliceblue;
   width: 10vw;
   margin-left: 3vw;
   margin-right: 3vw;
   height: 200px;
   border-radius: 25px;
-  border: 4px solid brown;
+  border: 4px solid #66260b;
 }
 .sixthicon {
   display: inline-table;
   text-align: center;
-  background-color: brown;
+  background-color: #66260b;
   color: aliceblue;
   width: 10vw;
   margin-left: 3vw;
   margin-right: 3vw;
   height: 200px;
   border-radius: 25px;
-  border: 4px solid brown;
+  border: 4px solid #66260b;
 }
 
 .Homewelcome {
@@ -521,8 +576,34 @@ h6 {
 .Homewelcome h3 {
   font-weight: 700;
 }
+
+.Ourmission {
+  width: 100%;
+  text-align: center;
+}
+
+.Ourmission .ApplyButton {
+  margin-top: 80px;
+}
+
+.Ourmission h3 {
+  padding-top: 40px;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 30px;
+}
+.Ourmission h6 {
+  padding-left: 30%;
+  padding-right: 30%;
+  font-size: 20px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
 .Homeservices {
-  height: 90vh;
+  width: 100%;
+  height: 1100px;
+  display: flex;
   text-align: left;
 }
 .Homeservices h6 {
@@ -533,13 +614,12 @@ h6 {
 }
 .Homeskillpic {
   width: 100%;
-  height: 580px;
-  position: relative;
-  padding-top: 60px;
-  padding-bottom: 160px;
+  position: absolute;
+  padding-top: 80px;
+  padding-bottom: 300px;
   float: left;
-  margin: -5px -10px -10px -5px;
-  filter: blur(16px);
+  filter: blur(1px);
+  opacity: 0.6;
 }
 .Homeskilltext {
   position: absolute;
@@ -596,7 +676,7 @@ h6 {
   top: 50%;
   right: 220px;
   font-size: 3rem;
-  color: brown;
+  color: #66260b;
   z-index: 2;
   cursor: pointer;
   user-select: none;
@@ -607,7 +687,7 @@ h6 {
   top: 50%;
   left: 220px;
   font-size: 3rem;
-  color: brown;
+  color: #66260b;
   z-index: 2;
   cursor: pointer;
   user-select: none;
@@ -646,16 +726,95 @@ h6 {
 
 .Aboutpic img {
   width: 100%;
+  margin-bottom: 30px;
 }
 
-.Abouttext {
+.Updates {
   text-align: center;
+  width: 80vw;
+  margin-left: 10vw;
+  height: auto;
+  padding-bottom: 0px;
+  background-color: white;
+  margin-bottom: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09), 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Updatespic img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.UpdatesContainer {
+  text-align: center;
+  display: inline-table;
   /* margin-left: 5%;
   margin-right: 5%; */
   margin-bottom: 0px;
-  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+}
+
+.UpdatesText {
+  padding: 0px;
+}
+
+.UpdatesTop h6 {
+  width: 60vw;
+}
+
+.UpdatesContainer h6 {
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.UpdatesTop {
+  text-align: center;
+  background-color: rgba(245, 245, 245, 0.822);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05), 2px 2px 5px rgba(0, 0, 0, 0.1);
+  height: auto;
+  padding: 30px;
+  margin: 30px;
+  position: relative;
+  display: inline-table;
+}
+
+.UpdatesContent {
+  width: 30vw;
+  height: 470px;
+  padding: 20px;
+  background-color: rgba(245, 245, 245, 0.822);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05), 2px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-left: 30px;
+  margin-right: 30px;
+  position: relative;
+  display: inline-table;
+}
+
+.UpdateBoard {
+  width: 70px;
+  border-radius: 60px;
+  display: inline;
+}
+
+.QuoteUpdate {
+  width: 30px;
+  border-radius: 60px;
+  display: block;
+}
+
+.Abouttext {
+  /* margin-left: 5%;
+  margin-right: 5%; */
+  margin-bottom: 0px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 50px;
 }
 .AboutContent {
+  text-align: center;
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
@@ -667,7 +826,7 @@ h6 {
 }
 
 .Abouttext h6 {
-  color: #1656a0;
+  color: black;
   font-weight: 500;
 }
 
@@ -720,7 +879,7 @@ h6 {
 }
 
 .Servicestext h4 {
-  color: brown;
+  color: #66260b;
   font-weight: 700;
   margin-bottom: 30px;
   margin-top: 40px;
@@ -792,7 +951,7 @@ h6 {
 }
 
 .Contacttext h4 {
-  color: #4a7ac7;
+  color: #66260b;
   font-weight: 600;
 }
 
@@ -806,7 +965,7 @@ h6 {
   padding: 0;
   margin: auto;
   border: none;
-  border: 1.2px dashed brown;
+  border: 1.2px dashed #66260b;
 }
 
 .Contacttitle img {
@@ -815,7 +974,7 @@ h6 {
 }
 
 .Contacttitle h3 {
-  color: brown;
+  color: #66260b;
   font-weight: 700;
   margin-bottom: 2px;
   margin-top: 50px;
@@ -867,20 +1026,20 @@ h6 {
   width: 200px;
 }
 .Contactinfo h4 {
-  color: brown;
+  color: #66260b;
   font-weight: 600;
   font-size: larger;
   margin-bottom: 20px;
 }
 
 .Contactinfo h6 {
-  color: brown;
+  color: #66260b;
   font-weight: 600;
   font-size: medium;
   margin-bottom: 20px;
 }
 .SubmitBtn {
-  background-color: brown;
+  background-color: #66260b;
   color: white;
   border: 2px solid #d9d9d9;
   width: 170px;
@@ -892,7 +1051,7 @@ h6 {
 }
 .SubmitBtn:hover {
   background-color: aliceblue;
-  color: #5893d4;
+  color: #66260b;
   border: 2px solid #d9d9d9;
   width: 170px;
   margin: 0px;
@@ -947,7 +1106,7 @@ h6 {
 .Location {
   width: 80vw;
   margin-left: 10vw;
-  height: auto;
+  height: 250vh;
   text-align: center;
   padding-bottom: 30px;
   background-color: white;
@@ -968,7 +1127,7 @@ h6 {
 }
 
 .Location h3 {
-  color: brown;
+  color: black;
   font-weight: 700;
   margin-bottom: 30px;
   margin-top: 30px;
@@ -977,20 +1136,103 @@ h6 {
 .Locationpics {
   text-align: left;
   padding: 50px;
-  height: 100vh;
+  height: 300px;
   background-color: white;
   border-radius: 20px;
 }
 
-.Location1 {
-  width: 80vh;
-  height: 900px;
-  clear: both;
-  display: table;
+.Boardof {
+  text-align: center;
+  padding: 50px;
+  height: 400px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.BoardTitle {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.Boardpics {
+  padding-bottom: 20px;
 }
 
 .Locationpic1 {
-  width: 38%;
+  width: 20%;
+  float: left;
+}
+
+.Locationpic1 h4 {
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+.Locationpic1 h5 {
+  margin: 0;
+  padding: 0;
+  color: rgb(64, 64, 64, 0.6);
+}
+.Locationpic2 h4 {
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+.Locationpic2 h5 {
+  margin: 0;
+  padding: 0;
+  color: rgb(64, 64, 64, 0.6);
+}
+.Locationpic3 h4 {
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+.Locationpic3 h5 {
+  margin: 0;
+  padding: 0;
+  color: rgb(64, 64, 64, 0.6);
+}
+.Locationpic4 h4 {
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+.Locationpic4 h5 {
+  margin: 0;
+  padding: 0;
+  color: rgb(64, 64, 64, 0.6);
+}
+.Locationpic5 h4 {
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+.Locationpic5 h5 {
+  margin: 0;
+  padding: 0;
+  color: rgb(64, 64, 64, 0.6);
+}
+
+.Locationpic2 {
+  width: 20%;
+  float: left;
+}
+.Locationpic3 {
+  width: 20%;
+  float: left;
+}
+.Locationpic4 {
+  width: 20%;
+  float: left;
+}
+.Locationpic5 {
+  width: 20%;
   float: left;
 }
 
@@ -1005,11 +1247,6 @@ h6 {
   width: 80vh;
   display: table;
   clear: both;
-}
-
-.Locationpic2 {
-  width: 38%;
-  float: left;
 }
 
 .Locationtext2 {
@@ -1029,21 +1266,77 @@ h6 {
 .Locationtext2 h6 {
   display: block;
   width: 30vw;
-  color: brown;
+  color: #66260b;
   font-weight: 500;
   font-size: medium;
 }
 .Locationpics img {
-  width: 400px;
-  margin-bottom: 50px;
-  border: solid 6px #b4d0f0;
-  border-radius: 20px;
+  width: 150px;
+  border: solid 1px #b4d0f0;
+  border-radius: 10px;
+}
+
+.Boardof img {
+  width: 150px;
+  border: solid 1px #b4d0f0;
+  border-radius: 10px;
 }
 
 /* CSS for location component ends here */
 
 /* CSS Styling for mobile version */
 @media only screen and (max-width: 1250px) {
+  .DonateButtonD {
+    display: none;
+    position: absolute;
+    right: 10px;
+    margin-top: 20px;
+  }
+
+  .DonateButtonD form {
+    display: inline;
+    margin-top: 30px;
+  }
+
+  .BackPic {
+    width: 100%;
+    padding: 0;
+    margin-top: 50vh;
+    margin-bottom: 300px;
+    opacity: 0.5;
+    position: relative;
+  }
+
+  .Ourmission h3 {
+    padding-top: 40px;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 30px;
+  }
+  .Ourmission h6 {
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 20px;
+  }
+  .Home {
+    width: 100%;
+    height: 450vh;
+  }
+  .Locationpics {
+    text-align: left;
+    padding: 30px;
+    height: 700px;
+    background-color: white;
+  }
+
+  .BoardTitle {
+    text-align: center;
+    padding-bottom: 30px;
+    display: block;
+  }
+
   .Burger {
     position: absolute;
     right: 20px;
@@ -1053,7 +1346,7 @@ h6 {
     margin: 0;
   }
   .Bur {
-    color: brown;
+    color: #66260b;
     height: 40px;
     width: 40px;
     float: right;
@@ -1066,7 +1359,7 @@ h6 {
     margin-left: 25px;
     margin-right: 80px;
     margin-top: 15px;
-    background-color: #5893d4;
+    background-color: #66260b;
     color: white;
     border: 3px solid #d9d9d9;
     width: 110px;
@@ -1083,6 +1376,78 @@ h6 {
     margin-bottom: 40px;
     z-index: 2;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.09), 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .Updates {
+    text-align: center;
+    width: 80vw;
+    margin-left: 10vw;
+    height: auto;
+    padding-bottom: 0px;
+    background-color: white;
+    margin-bottom: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.09), 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .Updatespic img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .UpdatesContainer {
+    text-align: center;
+    display: inline-table;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+  }
+
+  .UpdatesText {
+    padding: 0px;
+  }
+
+  .UpdatesContainer h6 {
+    color: black;
+    font-weight: 500;
+    font-size: 10px;
+  }
+
+  .UpdatesTop {
+    text-align: center;
+    background-color: rgba(245, 245, 245, 0.822);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05), 2px 2px 5px rgba(0, 0, 0, 0.1);
+    height: auto;
+    padding: 30px;
+    margin: 30px;
+    position: relative;
+    display: inline-table;
+  }
+
+  .UpdatesContent {
+    width: 50vw;
+    height: 300px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.822);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05), 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+    display: inline-table;
+  }
+
+  .UpdateBoard {
+    width: 70px;
+    border-radius: 60px;
+    display: inline;
+  }
+
+  .QuoteUpdate {
+    width: 30px;
+    border-radius: 60px;
+    display: block;
   }
 
   .Licence {
@@ -1111,7 +1476,7 @@ h6 {
     font-size: 12px;
     margin: 0;
     font-weight: 500;
-    color: #2169bb;
+    color: black;
   }
   .footerh3 {
     font-size: 11px;
@@ -1202,14 +1567,15 @@ h6 {
     position: relative;
     display: block;
     font-size: large;
-    color: #5893d4;
+    color: #66260b;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
     right: 15px;
   }
   .Flexfooter2 {
     flex: 1;
-    margin-left: 40px;
+    margin-top: -30px;
+    margin-left: 70px;
   }
   .Homeservices {
     text-align: left;
@@ -1225,7 +1591,7 @@ h6 {
   .Location {
     width: 80vw;
     margin-left: 10vw;
-    height: 230vh;
+    height: 600vh;
     text-align: center;
     clear: both;
     padding-bottom: 30px;
@@ -1241,12 +1607,15 @@ h6 {
   }
   .flex1 {
     margin-right: 0px;
-    width: 65vw;
-    margin-right: 50px;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
     height: 100%;
   }
   .flex1in {
     width: 100%;
+    margin-left: 0;
+    margin-right: 0;
     display: inline-table;
     height: 100%;
   }
@@ -1257,7 +1626,7 @@ h6 {
     position: absolute;
     height: 100%;
     z-index: 2;
-    width: 90%;
+    width: 100%;
     left: 0px;
     margin-top: 30px;
   }
@@ -1315,7 +1684,7 @@ h6 {
     top: 50%;
     right: 10px;
     font-size: 3rem;
-    color: brown;
+    color: #66260b;
     z-index: 2;
     cursor: pointer;
     user-select: none;
@@ -1326,7 +1695,7 @@ h6 {
     top: 50%;
     left: 10px;
     font-size: 3rem;
-    color: brown;
+    color: #66260b;
     z-index: 2;
     cursor: pointer;
     user-select: none;
@@ -1415,7 +1784,7 @@ h6 {
     display: inline-table;
   }
   .slider {
-    width: 100vw;
+    width: 100%;
     margin-top: 220px;
     height: 435px;
     position: relative;
@@ -1423,7 +1792,7 @@ h6 {
   }
 
   .Location1 {
-    width: 80vh;
+    width: 100vh;
     height: auto;
     clear: both;
     display: relative;
@@ -1431,10 +1800,38 @@ h6 {
   }
 
   .Locationpic1 {
-    width: 100%;
+    width: 50%;
     text-align: center;
   }
   .Locationpic1 img {
+    width: 80%;
+  }
+  .Locationpic2 {
+    width: 50%;
+    text-align: center;
+  }
+  .Locationpic2 img {
+    width: 80%;
+  }
+  .Locationpic3 {
+    width: 50%;
+    text-align: center;
+  }
+  .Locationpic3 img {
+    width: 80%;
+  }
+  .Locationpic4 {
+    width: 50%;
+    text-align: center;
+  }
+  .Locationpic4 img {
+    width: 80%;
+  }
+  .Locationpic5 {
+    width: 50%;
+    text-align: center;
+  }
+  .Locationpic5 img {
     width: 80%;
   }
 
@@ -1446,14 +1843,14 @@ h6 {
   .Locationtext1 h6 {
     display: block;
     width: 60vw;
-    color: brown;
+    color: #66260b;
     font-size: medium;
     font-weight: 500;
   }
   .Locationtext2 h6 {
     display: block;
     width: 60vw;
-    color: brown;
+    color: #66260b;
     font-weight: 500;
     font-size: medium;
   }
@@ -1462,14 +1859,6 @@ h6 {
     width: 80vh;
     display: relative;
     clear: both;
-  }
-
-  .Locationpic2 {
-    width: 100%;
-    text-align: center;
-  }
-  .Locationpic2 img {
-    width: 80%;
   }
 
   .Locationtext2 {
@@ -1495,7 +1884,7 @@ h6 {
     padding: 10px;
   }
   .ApplyButton {
-    background-color: brown;
+    background-color: #66260b;
     color: aliceblue;
     border: 2px solid #d9d9d9;
     font-size: 14px;
@@ -1505,7 +1894,7 @@ h6 {
   .ApplyButton:hover {
     margin: 0px;
     background-color: aliceblue;
-    color: #5893d4;
+    color: #66260b;
     border: 2px solid #d9d9d9;
     font-size: 14px;
     margin-right: 0px;
@@ -1514,15 +1903,163 @@ h6 {
 }
 
 @media only screen and (max-width: 600px) {
+  .Home {
+    width: 100%;
+    height: 450vh;
+  }
+
+  .Homeservices {
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    text-align: left;
+  }
+
   .Location {
     width: 80vw;
     margin-left: 10vw;
-    height: 160vh;
+    height: 380vh;
     text-align: center;
     clear: both;
     padding-bottom: 30px;
     background-color: white;
     margin-bottom: 260px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.09), 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .Updates {
+    text-align: center;
+    width: 80vw;
+    margin-left: 10vw;
+    height: auto;
+    padding-bottom: 0px;
+    background-color: white;
+    margin-bottom: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.09), 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .Updatespic img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .UpdatesContainer {
+    text-align: center;
+    display: inline-table;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    margin-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+  }
+
+  .UpdatesText {
+    padding: 0px;
+  }
+
+  .UpdatesContainer h6 {
+    color: black;
+    font-weight: 500;
+    font-size: 10px;
+  }
+
+  .UpdatesTop {
+    text-align: center;
+    background-color: rgba(245, 245, 245, 0.822);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05), 2px 2px 5px rgba(0, 0, 0, 0.1);
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-table;
+  }
+
+  .UpdatesContent {
+    width: 50vw;
+    height: 300px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.822);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05), 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-table;
+  }
+
+  .UpdateBoard {
+    width: 70px;
+    border-radius: 60px;
+    display: inline;
+  }
+
+  .QuoteUpdate {
+    width: 30px;
+    border-radius: 60px;
+    display: block;
+  }
+
+  .Abouttext {
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    margin-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+  }
+  .Ourmission h3 {
+    padding-top: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 30px;
+  }
+  .Ourmission h6 {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 20px;
+  }
+
+  .BoardM {
+    background-color: #66260b;
+    color: #f0f8ff;
+    margin-top: 40px;
+    margin-right: 0;
+    display: inline-block;
+  }
+  .BoardM:hover {
+    background-color: aliceblue;
+    color: #66260b;
+    border: 2px solid #d9d9d9;
+    font-size: 14px;
+    margin-right: 0px;
+    border-radius: 3px;
+    margin-top: 40px;
+    display: inline-block;
+  }
+  .DonateButtonD {
+    display: none;
+    position: absolute;
+    right: 10px;
+    margin-top: 20px;
+  }
+
+  .DonateButtonD form {
+    display: inline;
+    margin-top: 30px;
+  }
+
+  .DonateButtonM {
+    display: inline;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  .Home {
+    width: 100%;
+    height: 520vh;
   }
 }

@@ -1,8 +1,5 @@
 import React, { Component } from "react";
-import Pic1 from "../assets/Home1.jpg";
-import Pic2 from "../assets/Home2.jpg";
-import Pic3 from "../assets/Home3.jpg";
-import Pic4 from "../assets/Home4.jpg";
+import backPic from "../assets/Renaissance dam.jpeg";
 
 export default class Slider extends Component {
   constructor(props) {
@@ -37,6 +34,7 @@ export default class Slider extends Component {
   render() {
     return (
       <div className="imgbody">
+        <img className="BackPic" src={backPic} alt="backPic" />
         <div className="slider">
           <div className="slides">
             <input type="radio" name="radio-btn" id="radio1" />
@@ -46,46 +44,45 @@ export default class Slider extends Component {
 
             <div className="slide first">
               <div className="picicon">
-                <img
-                  src="https://img.icons8.com/bubbles/100/000000/domain.png"
-                  alt="internet"
-                />
-                <h6>Amenities including in-room wifi and cable</h6>
-              </div>
-              <img className="slideimg" src={Pic1} alt="pic1" />
-            </div>
-            <div className="slide">
-              <div className="picicon">
-                <img
-                  src="https://img.icons8.com/bubbles/100/000000/home.png"
-                  alt="Homeicon"
-                />
-                <h6>Homely environment</h6>
-              </div>
-              <img className="slideimg" src={Pic2} alt="pic2" />
-            </div>
-            <div className="slide">
-              <div className="picicon">
-                <img
-                  src="https://img.icons8.com/bubbles/100/000000/nurse-female.png"
-                  alt="Nurseicon"
-                />
+                <h3>አላማችን</h3>
                 <h6>
-                  Registered nurses, Licensed practical nurses, home health
-                  aides, and CNAs
+                  በቤተሰብ ፤ በማህበረብ በሀገር ላይ መልካሞ ተፅዕኖ የሚፈጥሩ ወንድሞችን በማፍራት የወገን
+                  አለኝታነትን በተግባር ማረጋገጥ
                 </h6>
               </div>
-              <img className="slideimg" src={Pic3} alt="pic3" />
+              <img className="slideimg" src={backPic} alt="pic1" />
             </div>
             <div className="slide">
               <div className="picicon">
-                <img
-                  src="https://img.icons8.com/bubbles/100/000000/last-24-hours.png"
-                  alt="24/7icon"
-                />
-                <h6>24/7 On-Site and Night Awake Staff</h6>
+                <h3>OUR VISION</h3>
+                <h6>
+                  To create a Strong and Dynamic unity among Brothers who are
+                  willing to bring about a Positive Impact on Families,
+                  Communities and Nations at Large.
+                </h6>
               </div>
-              <img className="slideimg" src={Pic4} alt="pic4" />
+              <img className="slideimg" src={backPic} alt="pic2" />
+            </div>
+            <div className="slide">
+              <div className="picicon">
+                <h3>አላማችን</h3>
+                <h6>
+                  በቤተሰብ ፤ በማህበረብ በሀገር ላይ መልካሞ ተፅዕኖ የሚፈጥሩ ወንድሞችን በማፍራት የወገን
+                  አለኝታነትን በተግባር ማረጋገጥ
+                </h6>
+              </div>
+              <img className="slideimg" src={backPic} alt="pic3" />
+            </div>
+            <div className="slide">
+              <div className="picicon">
+                <h3>OUR VISION</h3>
+                <h6>
+                  To create a Strong and Dynamic unity among Brothers who are
+                  willing to bring about a Positive Impact on Families,
+                  Communities and Nations at Large.
+                </h6>
+              </div>
+              <img className="slideimg" src={backPic} alt="pic4" />
             </div>
 
             <div className="navigation-auto">
