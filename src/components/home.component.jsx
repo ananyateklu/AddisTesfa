@@ -17,7 +17,7 @@ export default class Home extends Component {
     return (
       <div className="Home">
         <Slider />
-        <div className="Ourmission">
+      <div className="Ourmission">
           <h3>About Addis Tesfa</h3>
           <h6>
             Addis Tesfa Brothers Unity: is a non-profit organization
@@ -85,30 +85,60 @@ export default class Home extends Component {
         <div className="Boardof">
         <h3 className="BoardTitle">Board of Directors</h3>
           <div className="Boardpics">
-          <div className="Locationpic1">
+          <div className="Board-Mem">
+            <div>
             <img alt="location-pic" src={Board1} />
+            </div>
+            <div>
             <h4>Ashenafi Gebe</h4>
+            </div>
+            <div>
             <h5>Chairman</h5>
+            </div>
           </div>
-          <div className="Locationpic2">
+          <div className="Board-Mem">
+            <div>
             <img alt="location-pic" src={Board2} />
+            </div>
+            <div>
             <h4>Assefa Adugna Jale</h4>
+            </div>
+            <div>
             <h5>Chief Financial Officer (CFO)</h5>
-          </div>{" "}
-          <div className="Locationpic3">
+            </div>
+          </div>
+          <div className="Board-Mem">
+            <div>
             <img alt="location-pic" src={Board3} />
+            </div>
+            <div>
             <h4>Seyoum workneh</h4>
+            </div>
+            <div>
             <h5>Secretary</h5>
-          </div>{" "}
-          <div className="Locationpic4">
+            </div>
+          </div>
+          <div className="Board-Mem">
+            <div>
             <img alt="location-pic" src={Board4} />
+            </div>
+            <div>
             <h4>Elias Tessema Eyasu</h4>
+            </div>
+            <div>
             <h5> Chief Risk Managment Offier (CRMO)</h5>
-          </div>{" "}
-          <div className="Locationpic5">
+            </div>
+          </div>
+          <div className="Board-Mem">
+            <div>
             <img alt="location-pic" src={Board5} />
+            </div>
+            <div>
             <h4>Dr. Girum Lema</h4>
+            </div>
+            <div>
             <h5> Chief Research & Developmnt Offier (CRMO)</h5>
+            </div>
           </div>
           </div>
           
