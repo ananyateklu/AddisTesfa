@@ -1129,8 +1129,7 @@ h6 {
 
 /* CSS for Members page starts here */
 .Members {
-  display: grid;
-  grid-template-rows: 20% 5% 15% 5% 55%;
+  
   width: 80vw;
   margin-left: 10vw;
   height: 250vh;
@@ -1294,6 +1293,22 @@ h6 {
 /* CSS Styling for mobile version || */
 
 @media only screen and (max-width: 1250px) {
+
+  
+
+  .Board-Mem > div >img{
+  
+    max-width: auto;
+    
+    max-height: auto;
+  
+    border-radius: 10px;
+  
+    
+  
+  }
+
+
   .DonateButtonD {
     display: none;
     position: absolute;
@@ -1611,9 +1626,10 @@ h6 {
     margin-bottom: 70px;
   }
   .Members {
+    
     width: 80vw;
     margin-left: 10vw;
-    height: 600vh;
+    height: auto;
     text-align: center;
     clear: both;
     padding-bottom: 30px;
@@ -1622,10 +1638,20 @@ h6 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.09), 2px 2px 5px rgba(0, 0, 0, 0.1);
   }
 
-  .Foundingpics {
+  .FoundingPics {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+    
+    padding-bottom: 20px;
+    
+    
+  
+  }
+  .Boardpics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
     
     padding-bottom: 20px;
     
@@ -1947,17 +1973,16 @@ h6 {
   .Boardpics {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-gap: 1rem;
+    
     
     padding-bottom: 20px;
     
     
   
   }
-  .Foundingpics {
+  .FoundingPics {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
     
     padding-bottom: 20px;
     
@@ -1989,7 +2014,7 @@ h6 {
   .Members {
     width: 80vw;
     margin-left: 10vw;
-    height: 380vh;
+    height: auto;
     text-align: center;
     clear: both;
     padding-bottom: 30px;
@@ -2125,6 +2150,25 @@ h6 {
 
   .DonateButtonM {
     display: inline;
+  }
+  .Board-Mem > div >img{
+  
+    width: 100px;
+    
+    height: 100px;
+  
+    border-radius: 5px;
+  
+    
+  
+  }
+
+  .Board-Mem {
+  
+    display: grid;
+    grid-template-rows: 60% 20% 20%;
+    width: 100%;
+    
   }
 }
 
