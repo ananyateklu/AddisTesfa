@@ -1,3 +1,4 @@
+
 /* CSS for Header component starts here */
 .Logo {
   width: 6.5cm;
@@ -127,9 +128,10 @@
 }
 
 .BoardM {
-  background-color: #66260b;
+  background-color:   #7c2d12;
+  ;
   color: aliceblue;
-  border: 2px solid #d9d9d9;
+  /*border: 2px solid #d9d9d9;*/
   width: 150px;
   font-size: 14px;
   margin-right: 30px;
@@ -156,7 +158,8 @@
   padding-top: 0px;
 }
 .Footer {
-  background-color: #66260b;
+  background-color: 
+  #7c2d12;
   padding-top: 10px;
   padding-bottom: 30px;
   position: relative;
@@ -779,7 +782,7 @@ h6 {
   padding: 30px;
   margin: 30px;
   position: relative;
-  display: inline-table;
+  display: grid;
 }
 
 .UpdatesContent {
@@ -794,6 +797,27 @@ h6 {
   display: inline-table;
 }
 
+.UpdatesBottom {
+  text-align:left;
+  background-color: rgba(245, 245, 245, 0.822);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05), 2px 2px 5px rgba(0, 0, 0, 0.1);
+  height: auto;
+  padding: 30px;
+  margin: 30px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.UpdatesQuote > img{
+  
+  border-radius: 6px;
+}
+
+.BottomText{
+  padding-top:40px;
+  
+}
 .UpdateBoard {
   width: 70px;
   border-radius: 60px;
@@ -1103,8 +1127,10 @@ h6 {
 
 /* CSS for contact us page ends here */
 
-/* CSS for location page starts here */
-.Location {
+/* CSS for Members page starts here */
+.Members {
+  display: grid;
+  grid-template-rows: 20% 5% 15% 5% 55%;
   width: 80vw;
   margin-left: 10vw;
   height: 250vh;
@@ -1113,6 +1139,21 @@ h6 {
   background-color: white;
   margin-bottom: 40px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.09), 2px 2px 5px rgba(0, 0, 0, 0.1);
+  /*border-image-source: 10 repeat url(/src/assets/tilet1.png);
+  */
+  
+}
+/*
+.Members > div{
+  border: 1px solid black;
+}
+*/
+.FoundingPics{
+  display: grid;
+  grid-template-columns: repeat(5,20%);
+  
+  padding-bottom: 20px;
+
 }
 .Location img {
   width: 70px;
@@ -1120,11 +1161,17 @@ h6 {
 .Locationpic {
   margin: 0;
   padding: 0;
+  
+  
+  
 }
 
 .Locationpic img {
-  width: 100%;
+  
   margin-bottom: 30px;
+  height: auto;
+  width: 100%;
+  
 }
 
 .Location h3 {
@@ -1158,6 +1205,7 @@ h6 {
 .Boardpics {
   display: grid;
   grid-template-columns: repeat(5,20%);
+  
   padding-bottom: 20px;
   
   
@@ -1169,7 +1217,9 @@ h6 {
   display: grid;
   grid-template-rows: 70% 15% 15%;
   width: 100%;
+  
 }
+
 
 .Board-Mem h4 {
   margin: 0;
@@ -1185,8 +1235,14 @@ h6 {
 
 .Board-Mem > div >img{
   
-  width: 150px;
-  height:150px;
+  max-width: 150px;
+  
+  max-height:150px;
+
+  border-radius: 10px;
+
+  
+
 }
 
 
@@ -1231,15 +1287,12 @@ h6 {
   border-radius: 10px;
 }
 
-.Boardof img {
-  width: 150px;
-  border: solid 1px #b4d0f0;
-  border-radius: 10px;
-}
+
 
 /* CSS for location component ends here */
 
-/* CSS Styling for mobile version */
+/* CSS Styling for mobile version || */
+
 @media only screen and (max-width: 1250px) {
   .DonateButtonD {
     display: none;
@@ -1381,6 +1434,18 @@ h6 {
     margin: 30px;
     position: relative;
     display: inline-table;
+  }
+  .UpdatesBottom {
+    text-align:left;
+    background-color: rgba(245, 245, 245, 0.822);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05), 2px 2px 5px rgba(0, 0, 0, 0.1);
+   
+    height: auto;
+    padding: 30px;
+    margin: 30px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
   }
 
   .UpdatesContent {
@@ -1545,7 +1610,7 @@ h6 {
     position: relative;
     margin-bottom: 70px;
   }
-  .Location {
+  .Members {
     width: 80vw;
     margin-left: 10vw;
     height: 600vh;
@@ -1555,6 +1620,17 @@ h6 {
     background-color: white;
     margin-bottom: 260px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.09), 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .Foundingpics {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1rem;
+    
+    padding-bottom: 20px;
+    
+    
+  
   }
 
   .Locationtext1 {
@@ -1857,9 +1933,47 @@ h6 {
     margin-right: 0px;
     border-radius: 3px;
   }
+  .Locationpic img{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 100%;
+   
+  }
+
 }
 
 @media only screen and (max-width: 600px) {
+  .Boardpics {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1rem;
+    
+    padding-bottom: 20px;
+    
+    
+  
+  }
+  .Foundingpics {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1rem;
+    
+    padding-bottom: 20px;
+    
+    
+  
+  }
+  .Locationpic img{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 100%;
+    
+  }
+
+
+
   .Home {
     width: 100%;
     height: 450vh;
@@ -1872,7 +1986,7 @@ h6 {
     text-align: left;
   }
 
-  .Location {
+  .Members {
     width: 80vw;
     margin-left: 10vw;
     height: 380vh;
@@ -2020,3 +2134,4 @@ h6 {
     height: 520vh;
   }
 }
+

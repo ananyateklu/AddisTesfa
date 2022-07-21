@@ -90,7 +90,7 @@ export default class Home extends Component {
             <img alt="location-pic" src={Board1} />
             </div>
             <div>
-            <h4>Ashenafi Gebe</h4>
+            <h4>Seyoum workneh</h4>
             </div>
             <div>
             <h5>Chairman</h5>
@@ -112,7 +112,7 @@ export default class Home extends Component {
             <img alt="location-pic" src={Board3} />
             </div>
             <div>
-            <h4>Seyoum workneh</h4>
+            <h4>Zeneb Assefa</h4>
             </div>
             <div>
             <h5>Secretary</h5>
