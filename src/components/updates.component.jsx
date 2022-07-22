@@ -60,7 +60,7 @@ export default class Updates extends Component {
               የሚል ጠንካራ እምነት አለኝ::
             </h6>
           </div>
-          <div className="UpdatesContent">
+          <div className="UpdatesContent2">
             <div className="UpdatesText">
               <img className="QuoteUpdate" src={Quote} alt="Board Member" />
               <img className="UpdateBoard" src={Board11} alt="Board Member" />
