@@ -3,6 +3,7 @@ import Updatespic from "../assets/NewUpdate.jpg";
 import Board5 from "../assets/board5.png";
 import Board11 from "../assets/board11.png";
 import Quote from "../assets/quote.png";
+import QuoteB from "../assets/quote3.jpg";
 
 export default class Updates extends Component {
   componentDidMount() {
@@ -59,7 +60,7 @@ export default class Updates extends Component {
               የሚል ጠንካራ እምነት አለኝ::
             </h6>
           </div>
-          <div className="UpdatesContent">
+          <div className="UpdatesContent2">
             <div className="UpdatesText">
               <img className="QuoteUpdate" src={Quote} alt="Board Member" />
               <img className="UpdateBoard" src={Board11} alt="Board Member" />
@@ -79,6 +80,33 @@ export default class Updates extends Component {
               ክፍት መሆኑን እያሳሰብን የሃይማኖት ልዩነት ሳይገድበን ለወገኖቻችን መልካም ነገር በማድረግ ተስፋቸውን
               ብሩህ ለማድረግ ከኅብረታችን እንድትቀላቀሉ ጥሪያችንን እናስተላልፋለን።
             </h6>
+          </div>
+          
+          <div className="UpdatesBottom">
+          <div className="UpdatesQuote">
+          <img src={QuoteB} alt="Not Heavy" />
+          </div>
+            <div className="BottomText">
+            <h6>
+            "#He_is_not_heavy_he_is_my_brother." <br />
+
+            In Japan, during the war, this boy was carrying his dead brother on his back to bury him. 
+            A soldier noticed him and asked him to throw this dead child so that he would not get tired.<br />
+            The boy replied: "#He_is_not_heavy_he_is_my_brother." <br/><br/>
+
+            The soldier understand and broke down in to tears. Since then this picture has become a 
+            symbol of unity and strength in Japan. <br/><br/>
+
+            Let this be our motto:<br/>
+            "He is not heavy, he's my brother; <br/>she is not heavy, she's my sister."<br/>
+
+            If he falls, raise him.<br/>
+            If she get tired, support her<br/>
+            If he is wrong, correct him<br/>
+            If she makes mistake, forgive her<br/>
+            He is not heavy, ... he is my brother!
+            </h6>
+            </div>
           </div>
         </div>
       </div>
