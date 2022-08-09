@@ -101,7 +101,7 @@ export default class Home extends Component {
             <img alt="location-pic" src={Board2} />
             </div>
             <div>
-            <h4>Assefa Adugna Jale</h4>
+            <h4>Assefa Jale</h4>
             </div>
             <div>
             <h5>Chief Financial Officer (CFO)</h5>
@@ -123,7 +123,7 @@ export default class Home extends Component {
             <img alt="location-pic" src={Board4} />
             </div>
             <div>
-            <h4>Elias Tessema Eyasu</h4>
+            <h4>Elias Eyasu</h4>
             </div>
             <div>
             <h5> Chief Risk Managment Offier (CRMO)</h5>
